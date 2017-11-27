@@ -1,2 +1,3 @@
 # 3-Vikna
-Waddup meeen
+Finish Small Project 1
+Get started with Emo Pizza
