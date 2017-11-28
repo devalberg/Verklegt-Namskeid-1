@@ -9,34 +9,28 @@ void write();
 int main()
 {
     char type = 0;
-    do {
+    do
+    {
+        cout << "Would you like to:" << endl;
+        cout << "Read(r)\t\tWrite(w)\tQuit(q)?" << endl;
 
-    cout << "Would you like to:" << endl;
-    cout << "Read(r)\t\tWrite(w)\tQuit(q)?" << endl;
+        cin >> type;
+        type = tolower(type);
 
-    cin >> type;
-    type = tolower(type);
+        if (type == 'r')
+        {
+            read();
+        }
 
-    if (type == 'r'){
-        system("CLS");
-        cout << "------------------------- Start of Text File -------------------------" << endl;
-        read();
-        cout << "-------------------------- End of Text File --------------------------" << endl;
+        if (type == 'w')
+        {
+            write();
+        }
+
     }
-
-    if (type == 'w'){
-        write();
-    }
-
-    } while (type != 'q');
-
-
-
+    while (type != 'q');
 
     return 0;
-
-
-
 }
 
 void read()
@@ -44,11 +38,16 @@ void read()
     ifstream fin;
     string str;
     fin.open("textFile.txt");
-    char cont = 'K';
+    char cont = '0';
+
+    if (fin.is_open())
+    {
+        system("CLS");
+        cout << "------------------------- Start of Text File -------------------------" << endl;
+    }
 
     do
     {
-
         if(fin.is_open())
         {
             for(int i = 0; i < 10 && !fin.eof(); i++)
@@ -57,18 +56,25 @@ void read()
                 cout << str << endl;
             }
         }
+
         else
+
         {
-            cout << "File not found";
+            cout << "File not found\n" << endl;
+            break;
         }
-        if (!fin.eof())
-        {
+        if (fin.eof()) {
+            break;
+        }
             do
             {
-                cout << endl;
-                cout << "Do you wish to continue?(y/n): ";
-                cin >> cont;
-                cout << endl;
+                if (fin.is_open())
+                {
+                    cout << endl;
+                    cout << "Do you wish to continue?(y/n): ";
+                    cin >> cont;
+                    cout << endl;
+                }
             }
             while(cont != 'y' && cont != 'n');
 
@@ -76,12 +82,14 @@ void read()
             {
                 break;
             }
-        }
-
     }
     while(!fin.eof());
 
-
+    if (fin.is_open())
+    {
+        cout << "-------------------------- End of Text File --------------------------" << endl;
+        fin.close();
+    }
 }
 
 void write()
