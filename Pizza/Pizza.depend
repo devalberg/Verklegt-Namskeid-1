@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1511903104 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\login.cpp
+	"login.h"
+
+1511903810 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\main.cpp
+	"login.h"
+	<stdio.h>
+
+1511903098 c:\users\danie\desktop\gitgud\3-vikna\pizza\login.h
+	<iostream>
+	<string>
+	<conio.h>
+	<stdlib.h>
+	<Windows.h>
+
+1511903431 c:\users\danie\desktop\gitgud\3-vikna\pizza\headers\login.h
+	<iostream>
+	<string>
+	<conio.h>
+	<stdlib.h>
+	<Windows.h>
+
+1511904075 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\src\login.cpp
+	"login.h"
+
