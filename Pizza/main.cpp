@@ -1,8 +1,8 @@
 #include "login.h"
-#include <stdio.h>
+#include "textcolors.h"
 
 int main() {
-    SetConsoleTextAttribute(GetStdHandle( STD_OUTPUT_HANDLE), 15);
+    cWhite();
     login();
 return 0;
 }

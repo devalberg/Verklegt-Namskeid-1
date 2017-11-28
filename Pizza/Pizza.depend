@@ -2,9 +2,9 @@
 1511903104 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\login.cpp
 	"login.h"
 
-1511903810 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\main.cpp
+1511906379 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\main.cpp
 	"login.h"
-	<stdio.h>
+	"textcolors.h"
 
 1511903098 c:\users\danie\desktop\gitgud\3-vikna\pizza\login.h
 	<iostream>
@@ -13,13 +13,20 @@
 	<stdlib.h>
 	<Windows.h>
 
-1511903431 c:\users\danie\desktop\gitgud\3-vikna\pizza\headers\login.h
+1511906466 c:\users\danie\desktop\gitgud\3-vikna\pizza\headers\login.h
 	<iostream>
 	<string>
 	<conio.h>
 	<stdlib.h>
 	<Windows.h>
 
-1511904075 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\src\login.cpp
+1511906484 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\src\login.cpp
 	"login.h"
+	"textcolors.h"
+
+1511906272 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\src\textcolors.cpp
+	<stdlib.h>
+	<Windows.h>
+
+1511906275 c:\users\danie\desktop\gitgud\3-vikna\pizza\headers\textcolors.h
 

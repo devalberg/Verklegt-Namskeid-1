@@ -1,11 +1,13 @@
 #include "login.h"
+#include "textcolors.h"
 
+using namespace std;
 bool login()
 {
     cout << "**********************";
-    SetConsoleTextAttribute(GetStdHandle( STD_OUTPUT_HANDLE), 10);
+    cGreen();
     cout << " WELCOME TO EMO PIZZA ";
-    SetConsoleTextAttribute(GetStdHandle( STD_OUTPUT_HANDLE), 15);
+    cWhite();
     cout << "**********************" << endl;
     cout << "Enter your cridentials down below!" << endl;
 
@@ -31,9 +33,9 @@ bool login()
                     login.password+=c;
                     system("CLS");
                     cout << "**********************";
-                    SetConsoleTextAttribute(GetStdHandle( STD_OUTPUT_HANDLE), 10);
+                    cGreen();
                     cout << " WELCOME TO EMO PIZZA ";
-                    SetConsoleTextAttribute(GetStdHandle( STD_OUTPUT_HANDLE), 15);
+                    cWhite();
                     cout << "**********************" << endl;
                     cout << "Enter your cridentials down below!" << endl;
 
@@ -51,10 +53,11 @@ bool login()
                         login.password.pop_back();
                         system("CLS");
                         cout << "**********************";
-                        SetConsoleTextAttribute(GetStdHandle( STD_OUTPUT_HANDLE), 10);
+                        cWhite();
                         cout << " WELCOME TO EMO PIZZA ";
-                        SetConsoleTextAttribute(GetStdHandle( STD_OUTPUT_HANDLE), 15);
+                        cGreen();
                         cout << "**********************" << endl;
+                        cWhite();
                         cout << "Enter your cridentials down below!" << endl;
 
                         cout << "Username: " << login.username << endl;
@@ -72,21 +75,21 @@ bool login()
 
         if (login.username == admin.username && login.password == admin.password)
         {
-            SetConsoleTextAttribute(GetStdHandle( STD_OUTPUT_HANDLE), 10);
+            cWhite();
             cout << "Password accepted, welcome ";
-            SetConsoleTextAttribute(GetStdHandle( STD_OUTPUT_HANDLE), 15);
+            cGreen();
             cout << login.username << "!" << endl;
             pass = true;
-            SetConsoleTextAttribute(GetStdHandle( STD_OUTPUT_HANDLE), 15);
+            cWhite();
             Sleep(2000);
         }
 
         else
         {
-            SetConsoleTextAttribute(GetStdHandle( STD_OUTPUT_HANDLE), 12);
+            cRed();
             cout << "Invalid username / password!" << endl;
             pass = false;
-            SetConsoleTextAttribute(GetStdHandle( STD_OUTPUT_HANDLE), 15);
+            cWhite();
         }
 
         cout << endl;
