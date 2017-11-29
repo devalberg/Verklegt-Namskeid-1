@@ -1,4 +1,5 @@
 #include "SaleUI.h"
+#include "textcolors.h"
 #include <iostream>
 #include <Windows.h>
 #include <LoginUI.h>
@@ -17,10 +18,5 @@ void SaleUI::startSalesUI()
     cout << "4. Delete an order" << endl;
 
     cout << "9. Logout" << endl;
-
-
-
-=======
-    cout << "Hello sales person";
 }
 
