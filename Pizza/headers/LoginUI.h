@@ -16,8 +16,6 @@ class LoginUI
         void start_loginUI();
 };
 
-using namespace std;
-
 struct Userpass
 {
     std::string username;
