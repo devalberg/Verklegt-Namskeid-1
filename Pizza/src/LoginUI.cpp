@@ -1,14 +1,12 @@
 #include "LoginUI.h"
+#include "textcolors.h"
+using namespace std;
 
 void LoginUI::start_loginUI()
 {
 
 }
 
-#include "login.h"
-#include "textcolors.h"
-
-using namespace std;
 
 char login()
 {
@@ -19,6 +17,7 @@ char login()
     cout << "**********************" << endl;
     cout << "Enter your cridentials down below!" << endl;
 
+    Userpass admin = {"admin", "password"};
     Userpass login;
     bool pass = false;
     do
