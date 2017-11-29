@@ -44,7 +44,6 @@
 		<Unit filename="src/DeliveryUI.cpp" />
 		<Unit filename="src/LoginUI.cpp" />
 		<Unit filename="src/SaleUI.cpp" />
-		<Unit filename="src/order.cpp" />
 		<Unit filename="src/textcolors.cpp" />
 		<Extensions>
 			<code_completion />

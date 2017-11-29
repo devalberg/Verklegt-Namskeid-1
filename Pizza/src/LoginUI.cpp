@@ -17,7 +17,7 @@ char login()
     cout << "**********************" << endl;
     cout << "Enter your cridentials down below!" << endl;
 
-    Userpass admin = {"admin", "password"};
+    Userpass admin = {"admin", "password", 'a'};
     Userpass login;
     bool pass = false;
     do

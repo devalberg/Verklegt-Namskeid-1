@@ -1,12 +1,17 @@
 #include "LoginUI.h"
 #include "textcolors.h"
+#include "SaleUI.h"
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
     cWhite();
     if (login() == 'a') {
-        cout << "ayy lmao";
-    }
-return 0;
+        system("CLS");
+        cout << "hello";
+    };
+
+
+    return 0;
 }
