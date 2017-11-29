@@ -8,6 +8,9 @@ class Topping
         Topping();
 
     private:
+        double price;
+        bool is_vegan;
+
 };
 
 #endif // TOPPING_H

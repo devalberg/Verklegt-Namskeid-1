@@ -10,9 +10,12 @@ class Pizza
 {
     public:
         Pizza();
+        add_topping();
 
     private:
         vector<Topping> all_toppings;
+        int number_of_toppings;
+        int pizza_size;
 };
 
 #endif // PIZZA_H

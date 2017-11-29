@@ -2,5 +2,5 @@
 
 void AdminUI::startAdminUI()
 {
-
+    cout << "Hello admin";
 }

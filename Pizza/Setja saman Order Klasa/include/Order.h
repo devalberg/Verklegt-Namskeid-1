@@ -12,7 +12,11 @@ class Order
 
 
     private:
-        vector <Pizza> all_pizzas;
+        vector <Pizza> pizza_list;
+        vector <Side> sides_list;
+        vector <Drink> drinks_list;
+        char status;
+        double total_price;
 
 };
 
