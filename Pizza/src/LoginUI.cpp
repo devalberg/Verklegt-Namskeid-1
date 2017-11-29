@@ -1,16 +1,6 @@
 #include "LoginUI.h"
 
-void LoginUI::start_loginUI()
-{
-
-}
-
-#include "login.h"
-#include "textcolors.h"
-
-using namespace std;
-
-char login()
+char LoginUI::start_loginUI()
 {
     cout << "**********************";
     cGreen();
@@ -78,6 +68,25 @@ char login()
         }
 
         cout << endl;
+        Userpass admin;
+        admin.username = "admin";
+        admin.password = "password";
+        admin.type = 'a';
+
+        Userpass sales;
+        sales.username = "sales";
+        sales.password = "password";
+        sales.type = 's';
+
+        Userpass baker;
+        baker.username = "baker";
+        baker.password = "password";
+        baker.type = 'b';
+
+        Userpass delivery;
+        delivery.username = "delivery";
+        delivery.password = "password";
+        delivery.type = 'd';
 
         if (login.username == admin.username && login.password == admin.password)
         {
@@ -87,6 +96,40 @@ char login()
             cout << login.username << "!" << endl;
             pass = true;
             cWhite();
+            login.type = admin.type;
+            Sleep(2000);
+        }
+        else if (login.username == sales.username && login.password == sales.password)
+        {
+            cWhite();
+            cout << "Password accepted, welcome ";
+            cGreen();
+            cout << login.username << "!" << endl;
+            pass = true;
+            cWhite();
+            login.type = sales.type;
+            Sleep(2000);
+        }
+        else if (login.username == baker.username && login.password == baker.password)
+        {
+            cWhite();
+            cout << "Password accepted, welcome ";
+            cGreen();
+            cout << login.username << "!" << endl;
+            pass = true;
+            cWhite();
+            login.type = baker.type;
+            Sleep(2000);
+        }
+        else if (login.username == delivery.username && login.password == delivery.password)
+        {
+            cWhite();
+            cout << "Password accepted, welcome ";
+            cGreen();
+            cout << login.username << "!" << endl;
+            pass = true;
+            cWhite();
+            login.type = delivery.type;
             Sleep(2000);
         }
 
@@ -106,4 +149,35 @@ char login()
 
     return login.type;
 }
+void LoginUI::access(char chr)
+{
+    AdminUI adminUI;
+    SaleUI saleUI;
+    BakerUI bakerUI;
+    DeliveryUI deliveryUI;
+
+    if(chr == 'a')
+    {
+        adminUI.startAdminUI();
+    }
+    else if(chr == 's')
+    {
+        saleUI.startSalesUI();
+    }
+    else if(chr == 'b')
+    {
+        bakerUI.startBakerUI();
+    }
+    else if(chr == 'd')
+    {
+        deliveryUI.startDeliveryUI();
+    }
+}
+
+#include "login.h"
+#include "textcolors.h"
+
+using namespace std;
+
+
 

@@ -63,3 +63,62 @@
 
 1511963901 c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\headers\textcolors.h
 
+1511974743 source:c:\users\krisitnn\desktop\3-vikna\pizza\main.cpp
+	"LoginUI.h"
+	"textcolors.h"
+
+1511964599 source:c:\users\krisitnn\desktop\3-vikna\pizza\src\login.cpp
+	"login.h"
+	"textcolors.h"
+
+1511964599 source:c:\users\krisitnn\desktop\3-vikna\pizza\src\order.cpp
+
+1511964599 source:c:\users\krisitnn\desktop\3-vikna\pizza\src\textcolors.cpp
+	<stdlib.h>
+	<Windows.h>
+
+1511974743 c:\users\krisitnn\desktop\3-vikna\pizza\headers\loginui.h
+	"AdminUI.h"
+	"SaleUI.h"
+	"BakerUI.h"
+	"DeliveryUI.h"
+	"textcolors.h"
+	<iostream>
+	<string>
+	<conio.h>
+	<stdlib.h>
+	<windows.h>
+
+1511974686 c:\users\krisitnn\desktop\3-vikna\pizza\headers\adminui.h
+	<iostream>
+
+1511974686 c:\users\krisitnn\desktop\3-vikna\pizza\headers\saleui.h
+	<iostream>
+
+1511974686 c:\users\krisitnn\desktop\3-vikna\pizza\headers\bakerui.h
+	<iostream>
+
+1511974686 c:\users\krisitnn\desktop\3-vikna\pizza\headers\deliveryui.h
+	<iostream>
+
+1511964599 c:\users\krisitnn\desktop\3-vikna\pizza\headers\textcolors.h
+
+1511974620 source:c:\users\krisitnn\desktop\3-vikna\pizza\src\adminui.cpp
+	"AdminUI.h"
+
+1511976764 source:c:\users\krisitnn\desktop\3-vikna\pizza\src\bakerui.cpp
+	"BakerUI.h"
+
+1511976764 source:c:\users\krisitnn\desktop\3-vikna\pizza\src\deliveryui.cpp
+	"DeliveryUI.h"
+
+1511976902 source:c:\users\krisitnn\desktop\3-vikna\pizza\src\loginui.cpp
+	"LoginUI.h"
+	"login.h"
+	"textcolors.h"
+
+1511974073 c:\users\krisitnn\desktop\3-vikna\pizza\headers\login.h
+
+1511976764 source:c:\users\krisitnn\desktop\3-vikna\pizza\src\saleui.cpp
+	"SaleUI.h"
+

@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="headers" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -31,18 +32,18 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="headers/admin.h" />
-		<Unit filename="headers/baker.h" />
-		<Unit filename="headers/deliver.h" />
-		<Unit filename="headers/login.h" />
-		<Unit filename="headers/order.h" />
+		<Unit filename="headers/AdminUI.h" />
+		<Unit filename="headers/BakerUI.h" />
+		<Unit filename="headers/DeliveryUI.h" />
+		<Unit filename="headers/LoginUI.h" />
+		<Unit filename="headers/SaleUI.h" />
 		<Unit filename="headers/textcolors.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/admin.cpp" />
-		<Unit filename="src/baker.cpp" />
-		<Unit filename="src/deliver.cpp" />
-		<Unit filename="src/login.cpp" />
-		<Unit filename="src/order.cpp" />
+		<Unit filename="src/AdminUI.cpp" />
+		<Unit filename="src/BakerUI.cpp" />
+		<Unit filename="src/DeliveryUI.cpp" />
+		<Unit filename="src/LoginUI.cpp" />
+		<Unit filename="src/SaleUI.cpp" />
 		<Unit filename="src/textcolors.cpp" />
 		<Extensions>
 			<code_completion />

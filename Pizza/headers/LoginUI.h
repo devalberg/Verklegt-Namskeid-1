@@ -4,16 +4,21 @@
 #include "SaleUI.h"
 #include "BakerUI.h"
 #include "DeliveryUI.h"
+#include "textcolors.h"
 #include <iostream>
 #include <string>
 #include <conio.h>
 #include <stdlib.h>
+#include <windows.h>
+
+using namespace std;
 
 
 class LoginUI
 {
     public:
-        void start_loginUI();
+        char start_loginUI();
+        void access(char chr);
 };
 
 struct Userpass
