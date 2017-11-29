@@ -11,6 +11,7 @@
 #include <Windows.h>
 using namespace std;
 
+
 char LoginUI::start_loginUI()
 {
     cout << "**********************";
@@ -159,6 +160,7 @@ char LoginUI::start_loginUI()
     while (pass == false);
 
 
+
     return login.type;
 }
 void LoginUI::access(char chr)
@@ -186,6 +188,8 @@ void LoginUI::access(char chr)
     }
 }
 
-
+char LoginUI::getUserType() {
+    return userType;
+}
 
 

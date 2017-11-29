@@ -2,7 +2,7 @@
 #include "textcolors.h"
 #include <iostream>
 #include <Windows.h>
-#include <LoginUI.h>
+#include "LoginUI.h"
 using namespace std;
 
 void SaleUI::startSalesUI()
@@ -12,11 +12,16 @@ void SaleUI::startSalesUI()
     cout << "Logged in as: " << "PLACEHOLDER" << endl << endl;
     cWhite();
     cout << "Select what you would like to do:" << endl;
-    cout << "1. Create an order" << endl;
-    cout << "2. Edit an order" << endl;
-    cout << "3. View an order" << endl;
-    cout << "4. Delete an order" << endl;
+    cout << "\t1. Create an order" << endl;
+    cout << "\t2. Edit an order" << endl;
+    cout << "\t3. View an order" << endl;
+    cout << "\t4. Delete an order" << endl << endl;
 
-    cout << "9. Logout" << endl;
+  /*  if (login.getUserType() == 'a') {
+        cout << "\t8. Return to admin menu" << endl;
+    } */
+    cout << "\t9. Logout" << endl;
+    cout << "\t0. Quit" << endl;
+
 }
 

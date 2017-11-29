@@ -7,6 +7,9 @@ class LoginUI
     public:
         char start_loginUI();
         void access(char chr);
+        char getUserType();
+    private:
+        char userType;
 };
 
 struct Userpass
