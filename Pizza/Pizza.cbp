@@ -31,6 +31,7 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add directory="headers" />
 		</Compiler>
 		<Unit filename="headers/AdminUI.h" />
 		<Unit filename="headers/BakerUI.h" />
@@ -44,6 +45,10 @@
 		<Unit filename="src/DeliveryUI.cpp" />
 		<Unit filename="src/LoginUI.cpp" />
 		<Unit filename="src/SaleUI.cpp" />
+<<<<<<< HEAD
+=======
+		<Unit filename="src/order.cpp" />
+>>>>>>> 4f3574f45b2b35a21e4261409566dfe720ac6fce
 		<Unit filename="src/textcolors.cpp" />
 		<Extensions>
 			<code_completion />

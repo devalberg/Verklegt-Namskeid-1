@@ -9,10 +9,14 @@
 #include <string>
 #include <conio.h>
 #include <stdlib.h>
+<<<<<<< HEAD
 #include <windows.h>
 
 using namespace std;
 
+=======
+#include <Windows.h>
+>>>>>>> 4f3574f45b2b35a21e4261409566dfe720ac6fce
 
 class LoginUI
 {

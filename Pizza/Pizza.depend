@@ -63,6 +63,7 @@
 
 1511963901 c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\headers\textcolors.h
 
+<<<<<<< HEAD
 1511974743 source:c:\users\krisitnn\desktop\3-vikna\pizza\main.cpp
 	"LoginUI.h"
 	"textcolors.h"
@@ -78,15 +79,27 @@
 	<Windows.h>
 
 1511974743 c:\users\krisitnn\desktop\3-vikna\pizza\headers\loginui.h
+=======
+1511967950 source:c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\main.cpp
+	"LoginUI.h"
+	"textcolors.h"
+	<iostream>
+
+1511968201 c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\headers\loginui.h
+>>>>>>> 4f3574f45b2b35a21e4261409566dfe720ac6fce
 	"AdminUI.h"
 	"SaleUI.h"
 	"BakerUI.h"
 	"DeliveryUI.h"
+<<<<<<< HEAD
 	"textcolors.h"
+=======
+>>>>>>> 4f3574f45b2b35a21e4261409566dfe720ac6fce
 	<iostream>
 	<string>
 	<conio.h>
 	<stdlib.h>
+<<<<<<< HEAD
 	<windows.h>
 
 1511974686 c:\users\krisitnn\desktop\3-vikna\pizza\headers\adminui.h
@@ -122,3 +135,24 @@
 1511976764 source:c:\users\krisitnn\desktop\3-vikna\pizza\src\saleui.cpp
 	"SaleUI.h"
 
+=======
+	<Windows.h>
+
+1511965085 c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\headers\adminui.h
+
+1511965085 c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\headers\saleui.h
+
+1511965085 c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\headers\bakerui.h
+
+1511965085 c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\headers\deliveryui.h
+
+1511965085 source:c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\src\adminui.cpp
+	"AdminUI.h"
+
+1511965085 source:c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\src\bakerui.cpp
+	"BakerUI.h"
+
+1511965085 source:c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\src\deliveryui.cpp
+	"DeliveryUI.h"
+
+>>>>>>> 4f3574f45b2b35a21e4261409566dfe720ac6fce

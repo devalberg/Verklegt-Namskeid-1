@@ -1,5 +1,7 @@
 #include "LoginUI.h"
 #include "textcolors.h"
+#include <iostream>
+using namespace std;
 
 int main() {
     /*cWhite();

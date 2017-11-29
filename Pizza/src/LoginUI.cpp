@@ -1,6 +1,18 @@
 #include "LoginUI.h"
+#include "textcolors.h"
+using namespace std;
 
+<<<<<<< HEAD
 char LoginUI::start_loginUI()
+=======
+void LoginUI::start_loginUI()
+{
+
+}
+
+
+char login()
+>>>>>>> 4f3574f45b2b35a21e4261409566dfe720ac6fce
 {
     cout << "**********************";
     cGreen();
@@ -9,6 +21,7 @@ char LoginUI::start_loginUI()
     cout << "**********************" << endl;
     cout << "Enter your cridentials down below!" << endl;
 
+    Userpass admin = {"admin", "password"};
     Userpass login;
     bool pass = false;
     do
