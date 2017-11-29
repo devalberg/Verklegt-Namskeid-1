@@ -2,7 +2,9 @@
 #include "textcolors.h"
 
 using namespace std;
-bool login()
+
+
+char login()
 {
     cout << "**********************";
     cGreen();
@@ -12,7 +14,6 @@ bool login()
     cout << "Enter your cridentials down below!" << endl;
 
     Userpass login;
-    Userpass admin = {"admin", "password"};
     bool pass = false;
     do
     {
@@ -53,11 +54,10 @@ bool login()
                         login.password.pop_back();
                         system("CLS");
                         cout << "**********************";
-                        cWhite();
-                        cout << " WELCOME TO EMO PIZZA ";
                         cGreen();
-                        cout << "**********************" << endl;
+                        cout << " WELCOME TO EMO PIZZA ";
                         cWhite();
+                        cout << "**********************" << endl;
                         cout << "Enter your cridentials down below!" << endl;
 
                         cout << "Username: " << login.username << endl;
@@ -97,5 +97,7 @@ bool login()
     }
     while (pass == false);
 
+
+    return login.type;
 }
 

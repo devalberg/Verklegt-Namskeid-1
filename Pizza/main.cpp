@@ -3,6 +3,9 @@
 
 int main() {
     cWhite();
-    login();
+
+    if (login() == 'a') {
+
+    }
 return 0;
 }

@@ -11,9 +11,10 @@ struct Userpass
 {
     std::string username;
     std::string password;
+    char type;
 };
 
 
-bool login();
+char login();
 
 #endif // LOGIN_H_

@@ -2,7 +2,7 @@
 1511903104 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\login.cpp
 	"login.h"
 
-1511906379 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\main.cpp
+1511921395 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\main.cpp
 	"login.h"
 	"textcolors.h"
 
@@ -13,14 +13,14 @@
 	<stdlib.h>
 	<Windows.h>
 
-1511906466 c:\users\danie\desktop\gitgud\3-vikna\pizza\headers\login.h
+1511921433 c:\users\danie\desktop\gitgud\3-vikna\pizza\headers\login.h
 	<iostream>
 	<string>
 	<conio.h>
 	<stdlib.h>
 	<Windows.h>
 
-1511906484 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\src\login.cpp
+1511909535 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\src\login.cpp
 	"login.h"
 	"textcolors.h"
 
@@ -29,4 +29,12 @@
 	<Windows.h>
 
 1511906275 c:\users\danie\desktop\gitgud\3-vikna\pizza\headers\textcolors.h
+
+1511910119 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\src\baker.cpp
+
+1511910153 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\src\deliver.cpp
+
+1511910090 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\src\order.cpp
+
+1511910664 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\src\admin.cpp
 
