@@ -38,3 +38,28 @@
 
 1511910664 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\src\admin.cpp
 
+1511963901 source:c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\src\admin.cpp
+
+1511963901 source:c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\src\baker.cpp
+
+1511963901 source:c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\src\deliver.cpp
+
+1511963901 source:c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\src\login.cpp
+	"login.h"
+	"textcolors.h"
+
+1511963901 source:c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\src\order.cpp
+
+1511963901 source:c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\src\textcolors.cpp
+	<stdlib.h>
+	<Windows.h>
+
+1511963901 c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\headers\login.h
+	<iostream>
+	<string>
+	<conio.h>
+	<stdlib.h>
+	<Windows.h>
+
+1511963901 c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\headers\textcolors.h
+
