@@ -1,19 +1,12 @@
 #ifndef LOGINUI_H
 #define LOGINUI_H
-#include "AdminUI.h"
-#include "SaleUI.h"
-#include "BakerUI.h"
-#include "DeliveryUI.h"
-#include <iostream>
 #include <string>
-#include <conio.h>
-#include <stdlib.h>
-#include <Windows.h>
-
+using namespace std;
 class LoginUI
 {
     public:
-        void start_loginUI();
+        char start_loginUI();
+        void access(char chr);
 };
 
 struct Userpass

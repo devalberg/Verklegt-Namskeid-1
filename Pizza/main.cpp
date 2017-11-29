@@ -4,14 +4,10 @@
 #include <iostream>
 using namespace std;
 
+
 int main()
 {
-    cWhite();
-    if (login() == 'a') {
-        system("CLS");
-        cout << "hello";
-    };
-
-
-    return 0;
+    LoginUI login;
+    login.access(login.start_loginUI());
+return 0;
 }
