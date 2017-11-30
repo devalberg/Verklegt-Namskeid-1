@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1512061331 source:c:\users\saemundur\desktop\3-vikna\week 1\verkefni_b(ath virkar ekki)\main.cpp
+	"Superhero.h"
+
+1512061677 c:\users\saemundur\desktop\3-vikna\week 1\verkefni_b(ath virkar ekki)\include\superhero.h
+	<iostream>
+	<fstream>
+
+1512061411 source:c:\users\saemundur\desktop\3-vikna\week 1\verkefni_b(ath virkar ekki)\src\superhero.cpp
+	"Superhero.h"
+
