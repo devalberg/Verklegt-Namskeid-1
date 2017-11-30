@@ -5,14 +5,30 @@
 #include "textcolors.h"
 #include "LoginUI.h"
 #include <iostream>
-#include <string>
 #include <conio.h>
 #include <stdlib.h>
 #include <Windows.h>
+#include <vector>
+#include <fstream>
 using namespace std;
 
+LoginUI(char* username, char* password, char userType) {
+    int len = strlen(username);
+    if (len > 19) {
+        return; // TODO: PRINT OUT MESSAGE WHY THIS FAILS
+    }
+    len = strlen(password);
+    if (len > 19) {
+        return; // TODO: PRINT OUT MESSAGE WHY THIS FAILS
+    }
 
-char LoginUI::start_loginUI()
+    strcpy(this->username, username);
+    strcpy(this->password, password);
+    this->userType = userType;
+
+}
+
+void LoginUI::start_loginUI()
 {
     cout << "**********************";
     cGreen();
@@ -21,8 +37,7 @@ char LoginUI::start_loginUI()
     cout << "**********************" << endl;
     cout << "Enter your cridentials down below!" << endl;
 
-    Userpass admin = {"admin", "password", 'a'};
-    Userpass login;
+    LoginUI login;
     bool pass = false;
     do
     {
@@ -30,7 +45,7 @@ char LoginUI::start_loginUI()
         cin >> login.username;
 
         char c = ' ';
-        login.password = "";
+        string tempPass;
         cout << "Password: ";
         while (c!=13)
         {
@@ -40,7 +55,7 @@ char LoginUI::start_loginUI()
             {
                 if (c!=8)
                 {
-                    login.password+=c;
+                    tempPass+= c;
                     system("CLS");
                     cout << "**********************";
                     cGreen();
@@ -51,16 +66,16 @@ char LoginUI::start_loginUI()
 
                     cout << "Username: " << login.username << endl;
                     cout << "Password: ";
-                    for (int i = 0 ; i < login.password.length(); i++)
+                    for (unsigned int i = 0 ; i < tempPass.length(); i++)
                     {
                         cout << "*";
                     }
                 }
                 else
                 {
-                    if (login.password.length() > 0)
+                    if (tempPass.length() > 0)
                     {
-                        login.password.pop_back();
+                        tempPass.pop_back();
                         system("CLS");
                         cout << "**********************";
                         cGreen();
@@ -71,7 +86,7 @@ char LoginUI::start_loginUI()
 
                         cout << "Username: " << login.username << endl;
                         cout << "Password: ";
-                        for (int i = 0 ; i < login.password.length(); i++)
+                        for (unsigned int i = 0 ; i < tempPass.length(); i++)
                         {
                             cout << "*";
                         }
@@ -81,27 +96,38 @@ char LoginUI::start_loginUI()
         }
 
         cout << endl;
-        Userpass admin;
-        admin.username = "admin";
-        admin.password = "password";
-        admin.type = 'a';
 
-        Userpass sales;
-        sales.username = "sales";
-        sales.password = "password";
-        sales.type = 's';
+        ////////////// NEW ////////////////
+        ifstream fin;
+        fin.open("Users.dat", ios::binary);
 
-        Userpass baker;
-        baker.username = "baker";
-        baker.password = "password";
-        baker.type = 'b';
+        fin.seekg(0,fin.end);
+        int number_of_users = fin.tellg()/sizeof(LoginUI);
+        fin.seekg(0, fin.beg);
 
-        Userpass delivery;
-        delivery.username = "delivery";
-        delivery.password = "password";
-        delivery.type = 'd';
+        LoginUI *users = new LoginUI[number_of_users];
+        fin.read((char*)(users), sizeof(LoginUI)*number_of_users);
 
-        if (login.username == admin.username && login.password == admin.password)
+        fin.close();
+
+        bool match = false;
+
+
+        for (int i = 0; i < number_of_users; i++)
+        {
+            if(login.username == users[i].username && login.password == users[i].password)
+            {
+                match = true;
+                login.userType = users[i].userType;
+                break;
+            }
+            else
+            {
+                match = false;
+            }
+        }
+
+        if(match)
         {
             cWhite();
             cout << "Password accepted, welcome ";
@@ -109,43 +135,8 @@ char LoginUI::start_loginUI()
             cout << login.username << "!" << endl;
             pass = true;
             cWhite();
-            login.type = admin.type;
-            Sleep(2000);
+            Sleep(1000);
         }
-        else if (login.username == sales.username && login.password == sales.password)
-        {
-            cWhite();
-            cout << "Password accepted, welcome ";
-            cGreen();
-            cout << login.username << "!" << endl;
-            pass = true;
-            cWhite();
-            login.type = sales.type;
-            Sleep(2000);
-        }
-        else if (login.username == baker.username && login.password == baker.password)
-        {
-            cWhite();
-            cout << "Password accepted, welcome ";
-            cGreen();
-            cout << login.username << "!" << endl;
-            pass = true;
-            cWhite();
-            login.type = baker.type;
-            Sleep(2000);
-        }
-        else if (login.username == delivery.username && login.password == delivery.password)
-        {
-            cWhite();
-            cout << "Password accepted, welcome ";
-            cGreen();
-            cout << login.username << "!" << endl;
-            pass = true;
-            cWhite();
-            login.type = delivery.type;
-            Sleep(2000);
-        }
-
         else
         {
             cRed();
@@ -161,35 +152,138 @@ char LoginUI::start_loginUI()
 
 
 
-    return login.type;
+    /*
+            /////////////OLD :D///////////
+
+            LoginUI admin;
+            admin.username = "admin";
+            admin.password = "password";
+            admin.userType = 'a';
+
+            LoginUI sales;
+            sales.username = "sales";
+            sales.password = "password";
+            sales.userType = 's';
+
+            LoginUI baker;
+            baker.username = "baker";
+            baker.password = "password";
+            baker.userType = 'b';
+
+            LoginUI delivery;
+            delivery.username = "delivery";
+            delivery.password = "password";
+            delivery.userType = 'd';
+
+            if (login.username == admin.username && login.password == admin.password)
+            {
+                cWhite();
+                cout << "Password accepted, welcome ";
+                cGreen();
+                cout << login.username << "!" << endl;
+                pass = true;
+                cWhite();
+                login.userType = admin.userType;
+                Sleep(1000);
+            }
+            else if (login.username == sales.username && login.password == sales.password)
+            {
+                cWhite();
+                cout << "Password accepted, welcome ";
+                cGreen();
+                cout << login.username << "!" << endl;
+                pass = true;
+                cWhite();
+                login.userType = sales.userType;
+                Sleep(2000);
+            }
+            else if (login.username == baker.username && login.password == baker.password)
+            {
+                cWhite();
+                cout << "Password accepted, welcome ";
+                cGreen();
+                cout << login.username << "!" << endl;
+                pass = true;
+                cWhite();
+                login.userType = baker.userType;
+                Sleep(1000);
+            }
+            else if (login.username == delivery.username && login.password == delivery.password)
+            {
+                cWhite();
+                cout << "Password accepted, welcome ";
+                cGreen();
+                cout << login.username << "!" << endl;
+                pass = true;
+                cWhite();
+                login.userType = delivery.userType;
+                Sleep(2000);
+            }
+
+            else
+            {
+                cRed();
+                cout << "Invalid username / password!" << endl;
+                pass = false;
+                cWhite();
+            }
+
+            cout << endl;
+
+            }
+            while (pass == false);
+
+    */
+
+    username = login.username;
+    password = login.password;
+    userType = login.userType;
+
 }
-void LoginUI::access(char chr)
+void LoginUI::access()
 {
-    AdminUI adminUI;
-    SaleUI saleUI;
-    BakerUI bakerUI;
-    DeliveryUI deliveryUI;
+    LoginUI account;
+    account.username = username;
+    account.password = password;
+    account.userType = userType;
 
-    if(chr == 'a')
+    if(userType == 'a')
     {
-        adminUI.startAdminUI();
+        AdminUI adminUI;
+        adminUI.startAdminUI(account);
     }
-    else if(chr == 's')
+    else if(userType == 's')
     {
-        saleUI.startSalesUI();
+        SaleUI saleUI;
+        saleUI.startSalesUI(account);
     }
-    else if(chr == 'b')
+    else if(userType == 'b')
     {
-        bakerUI.startBakerUI();
+        BakerUI bakerUI;
+        bakerUI.startBakerUI(account);
     }
-    else if(chr == 'd')
+    else if(userType == 'd')
     {
-        deliveryUI.startDeliveryUI();
+        DeliveryUI deliveryUI;
+        deliveryUI.startDeliveryUI(account);
     }
 }
 
-char LoginUI::getUserType() {
+char LoginUI::getUserType()
+{
     return userType;
 }
 
+char LoginUI::getUsername()
+{
+    return username;
+}
+
+istream& operator >> (istream& in, LoginUI& account)
+{
+
+    in >> account.username >> account.password >> account.userType;
+
+    return in;
+}
 

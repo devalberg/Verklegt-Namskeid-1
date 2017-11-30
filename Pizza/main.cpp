@@ -7,7 +7,8 @@ using namespace std;
 
 int main()
 {
-    LoginUI login;
-    login.access(login.start_loginUI());
+    LoginUI login("admin", "admin", 'a');
+    login.start_loginUI();
+    login.access();
 return 0;
 }

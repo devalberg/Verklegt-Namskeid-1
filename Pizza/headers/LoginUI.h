@@ -4,22 +4,18 @@
 using namespace std;
 class LoginUI
 {
-    public:
-        char start_loginUI();
-        void access(char chr);
-        char getUserType();
-    private:
-        char userType;
+public:
+    LoginUI(char* username, char* password, char userType);
+    void start_loginUI();
+    void access();
+    char getUserType();
+    char getUsername();
+    friend istream& operator >> (istream& in, LoginUI& account);
+private:
+    char username[20];
+    char password[20];
+    char userType;
 };
-
-struct Userpass
-{
-    std::string username;
-    std::string password;
-    char type;
-};
-
-char login();
 
 
 #endif // LOGINUI_H
