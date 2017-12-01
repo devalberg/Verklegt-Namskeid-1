@@ -34,39 +34,41 @@
 	"Drink.h"
 	"Side.h"
 
-1511992533 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\main.cpp
+1512149148 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\main.cpp
 	<iostream>
 	"Pizza.h"
 	"Order.h"
 	"Topping.h"
 
-1511992371 c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\include\pizza.h
+1512148687 c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\include\pizza.h
 	"Topping.h"
 
-1511989187 c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\include\topping.h
+1512148687 c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\include\topping.h
 	<iostream>
 	<string>
 	<vector>
 
-1511976744 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\drink.cpp
+1512148435 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\drink.cpp
 	"Drink.h"
 
-1511976744 c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\include\drink.h
+1512148687 c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\include\drink.h
+	"Topping.h"
 
-1511992521 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\order.cpp
+1512149461 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\order.cpp
 	"Order.h"
 
-1511990311 c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\include\order.h
+1512149148 c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\include\order.h
 	"Pizza.h"
 	"Side.h"
 	"Drink.h"
 
-1511976728 c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\include\side.h
+1512147627 c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\include\side.h
+	"Topping.h"
 
-1511992521 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\pizza.cpp
+1512147866 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\pizza.cpp
 	"Pizza.h"
 
-1511976728 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\side.cpp
+1512144483 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\side.cpp
 	"Side.h"
 
 1511989187 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\topping.cpp

@@ -16,6 +16,7 @@ class Topping
 
     private:
         double price;
+        int topping_id;
         bool is_vegan;
         string name;
 

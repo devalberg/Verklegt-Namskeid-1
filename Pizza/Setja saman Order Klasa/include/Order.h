@@ -9,8 +9,10 @@
 class Order
 {
     public:
-        Order();
+        Order(double _total_price);
         void add_pizza(Pizza current_pizza);
+        void add_drink(Drink current_drink);
+        void add_side(Side current_side);
         friend ostream &operator << (ostream& out, Order& current_order);
 
 
@@ -20,7 +22,7 @@ class Order
         vector <Drink> drinks_list;
         char status;
         double total_price;
-        int id_num;
+        int order_id;
         bool dilivery;
 
 };
