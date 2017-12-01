@@ -1,12 +1,5 @@
 #include "Superhero.h"
 
-
-
-
-/// 3) Prompt user
-///     - Banna tveggja stafa tolur?
-/// 4) Display individual hero
-
 void welcome_user()
 {
     cout << "Wellcome to Hero Creator." << endl << endl;
@@ -34,10 +27,10 @@ void input_heros(int number_of_heros)
 int prompt_user()
 {
     char input;
-    /// Baeta vid individual hero
 
     do {
     cin >> input;
+
     if(input > 48 && input < 58)
         {
             return input - 48;
@@ -58,7 +51,6 @@ int prompt_user()
 
 void display_all_heroes()
 {
-    ///Version 2, virkar ekki
 
     ifstream fin;
 
@@ -72,7 +64,7 @@ void display_all_heroes()
     for(int i = 0; i < number_of_heroes; i++)
     {
         Superhero current_hero;
-        fin.read((char*)(&current_hero), sizeof(Superhero)); /// Forritid crash'ar her
+        fin.read((char*)(&current_hero), sizeof(Superhero));
         cout << current_hero << endl;
     }
 }
@@ -83,8 +75,6 @@ bool continue_program(int& number_of_heroes)
 
     cout << endl << "What would you like to do now?" << endl;
     cout << "view heroes 'v', create more heroes(1-9), quit 'q':" << endl;
-
-    /// Baeta vid individual hero
 
     do {
         cin >> input;
@@ -112,8 +102,6 @@ bool continue_program(int& number_of_heroes)
 
     return true;
 }
-
-
 
 int main()
 {

@@ -75,7 +75,7 @@ ostream& operator << (ostream& out, Superhero& current_hero)
 
 
     out << "Hero name: ";
-    current_hero.cahr_ary_output(current_hero.name, MAX_SIZE);
+    current_hero.name_cahr_ary_output(current_hero.name, MAX_SIZE);
     out << endl;
     out << "Hero age: " << current_hero.age << endl;
     out << "Hero power: ";
@@ -88,10 +88,11 @@ ostream& operator << (ostream& out, Superhero& current_hero)
 
 istream& operator >> (istream& in, Superhero& current_hero)
 {
-    cout << "Note: To complete name, enter '/'" << endl;
+    string temp_name_string;
 
     cout << "Please enter your hero's name: ";
-         current_hero.cahr_ary_input((current_hero.name), MAX_SIZE);
+         in >> temp_name_string;
+         current_hero.string_to_arr(temp_name_string);
     cout << "Please enter your hero's age: ";
         in >> current_hero.age;
     cout << "Please enter your hero power: ";
@@ -119,6 +120,16 @@ void Superhero::cahr_ary_input(char ary[], int max_size_arr)
     }
 }
 
+void Superhero::name_cahr_ary_output(char ary[], int max_size_arr)
+{
+
+    for(int i = 0; i < name_lenght; i++)
+    {
+        cout << ary[i];
+    }
+}
+
+
 void Superhero::cahr_ary_output(char ary[], int max_size_arr)
 {
 
@@ -136,3 +147,11 @@ char Superhero::get_power_char()
     return this->power;
 }
 
+void Superhero::string_to_arr(string _string)
+{
+    for (unsigned int i = 0; i < _string.size(); i++)
+    {
+        this->name[i] = _string[i];
+    }
+    this->name_lenght = _string.size();
+}
