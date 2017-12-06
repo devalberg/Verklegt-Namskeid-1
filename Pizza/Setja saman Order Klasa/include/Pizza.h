@@ -6,11 +6,12 @@ class Pizza
 {
     public:
         Pizza();
-        Pizza(vector<Topping> _all_toppings, int _pizza_size, bool _cheesy_crust, double _price);
+        Pizza(vector<Topping> _all_toppings, int _pizza_size, bool _cheesy_crust, double _price, double _total_price);
         void add_topping(Topping current_topping);
         void onoffmenu(bool onoff);
         bool is_on_menu();
         bool is_cheesy_crust();
+        double get_price();
         friend ostream &operator << (ostream& out,  Pizza& current_pizza);
 
 
@@ -23,7 +24,8 @@ class Pizza
         unsigned int number_of_toppings;
         int pizza_size;
         int pizza_id;
-        double price;
+        double base_price;
+        double total_price;
 
 
 };

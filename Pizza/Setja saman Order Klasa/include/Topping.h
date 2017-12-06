@@ -10,13 +10,15 @@ class Topping
 {
     public:
         Topping();
-        Topping(string _name, double _price , bool _is_vegan);
+        Topping(string _name, double _price , bool _is_vegan, unsigned int _topping_id);
+        double get_price();
         string get_name();
+        unsigned int get_id();
 
 
     private:
         double price;
-        int topping_id;
+        unsigned int topping_id;
         bool is_vegan;
         string name;
 

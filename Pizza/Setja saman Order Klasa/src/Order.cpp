@@ -2,10 +2,9 @@
 
 
 
-Order::Order(double _total_price)
+Order::Order()
 {
-    this->total_price = _total_price;
-    this->order_id = 69;
+
 }
 
 ostream &operator << (ostream& out,  Order& current_order)
@@ -25,17 +24,15 @@ ostream &operator << (ostream& out,  Order& current_order)
         out << endl << endl ;
         out << "--------------------------------------------------------" << endl;
         out << "Drinks:" << endl;
-            for(unsigned int i = 0; i < current_order.drinks_list.size(); i++)
-            {
-                out << "\t" << current_order.drinks_list[i] << " ";
-            }
+
+                out << current_order.drinks_list << " ";
+
         out << endl ;
         out << "--------------------------------------------------------" << endl;
         out << "Sides: " << endl;
-            for(unsigned int i = 0; i < current_order.sides_list.size(); i++)
-            {
-                out << "\t" << current_order.sides_list[i] << " ";
-            }
+
+                out << current_order.sides_list;
+
 
     }
     /*
@@ -49,9 +46,48 @@ ostream &operator << (ostream& out,  Order& current_order)
     }
 
 */
+        current_order.update_price();
         out << "++++++++++++++++++++++++++++++++++++++++++++++++++++++++" << endl;
-        out << "\t" << "\t" << "\t" << "Total: " << current_order.total_price << "kr.";
+        out << "\t" << "\t" << "\t" << "Total: " << current_order.total_price << "kr." << endl << endl;
+        out << "Comment:" << current_order.comment << endl;
+        out << "Name: " << current_order.name << endl;
+        out << "Phone: " << current_order.name << endl;
+        out  << "Address: " << current_order.address << endl << endl;
     return out;
+}
+
+
+void Order::update_price()
+{
+
+    this->total_price = 0;
+    double pizza_price = 0;
+    double drink_price = 0;
+    double sides_price = 0;
+
+    for(unsigned int i = 0; i < this->pizza_list.size(); i++)
+    {
+        pizza_price += this->pizza_list[i].get_price();
+    }
+    this->total_price += pizza_price;
+
+        for(unsigned int i = 0; i < this->drinks_list.size(); i++)
+    {
+        drink_price += this->drinks_list[i].get_price();
+    }
+    this->total_price += drink_price;
+
+        for(unsigned int i = 0; i < this->sides_list.size(); i++)
+    {
+        sides_price += this->sides_list[i].get_price();
+    }
+    this->total_price += sides_price;
+}
+
+void Order::print_comment()
+{
+cin.getline(comment, 140);
+cout << comment;
 }
 
 
@@ -70,3 +106,29 @@ void Order::add_side(Side current_side)
 }
 
 
+
+
+
+void Order::change_name()
+{
+    cout << "Name: ";
+    cin >> this->name;
+}
+
+void Order::change_phone()
+{
+    cout << "Phone number: ";
+    cin >> this->phone;
+}
+
+void Order::change_address()
+{
+    cout << "Address: ";
+    cin >> this->address;
+}
+
+void Order::change_comment()
+{
+    cout << "Comment: ";
+    cin >> this->comment;
+}

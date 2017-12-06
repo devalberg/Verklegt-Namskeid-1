@@ -5,7 +5,7 @@ Pizza::Pizza()
 
 }
 
-Pizza::Pizza(vector<Topping> _all_toppings, int _pizza_size, bool _cheesy_crust, double _price)
+Pizza::Pizza(vector<Topping> _all_toppings, int _pizza_size, bool _cheesy_crust, double _price, double _total_price)
 {
     this->all_toppings = _all_toppings;
     this->pizza_size = _pizza_size;
@@ -13,7 +13,8 @@ Pizza::Pizza(vector<Topping> _all_toppings, int _pizza_size, bool _cheesy_crust,
     this->name = "Custom pizza";
     this->number_of_toppings = this->all_toppings.size();
     this->bottom = "Classic";
-    this->price = _price;
+    this->base_price = _price;
+    this->total_price = _total_price;
 }
 
 void Pizza::add_topping(Topping current_topping)
@@ -32,8 +33,7 @@ ostream &operator << (ostream& out,  Pizza& current_pizza)
         if(current_pizza.cheesy_crust == true)
         {
             out << " (Cheesy Crust)" << endl;
-            out << "\t" << "\t" << "\t" << current_pizza.price;
-
+            out << "\t" << "\t" << "\t" << current_pizza.total_price;
         }
         return out;
     }
@@ -49,16 +49,66 @@ ostream &operator << (ostream& out,  Pizza& current_pizza)
 
         out << endl;
 
-        for (unsigned int i = 0; i < current_pizza.number_of_toppings; i++)
-        {
-           out << "\t" << "\t" << (current_pizza.all_toppings[i]).get_name() << endl;
-        }
+//        for (unsigned int i = 0; i < current_pizza.number_of_toppings; i++)
+//        {
 
-        out << "\t" << "\t" << "\t" << current_pizza.price << "kr.";
+    unsigned int number_of_topping_types = 30;
+    unsigned int n;
+
+    for (unsigned int i = 0; i < number_of_topping_types ; i++)
+    {
+        n = 0;
+        for(unsigned int j = 0; j < current_pizza.all_toppings.size() ; j++)
+        {
+            if (current_pizza.all_toppings[j].get_id() == i)
+            {
+                n++;
+            }
+        }
+            if (n > 0)
+            {
+                for(unsigned int k = 0; k < current_pizza.all_toppings.size(); k++)
+                {
+                    if(i == current_pizza.all_toppings[k].get_id())
+                    {
+                        out << "\t" << "\t" << current_pizza.all_toppings[k].get_name() << " " << n << "x" << endl;
+                        k = current_pizza.all_toppings.size();
+                    }
+                }
+            }
+         //  out << "\t" << "\t" << (current_pizza.all_toppings[i]).get_name() << endl;
+
     }
 
+        //}
+        out << "\t" << "\t" << "\t" << "\t" << "\t" << "\t" << current_pizza.get_price() << "kr.";
+    }
     return out;
 }
+
+double Pizza::get_price()
+{
+    if(this->is_on_menu() == false)
+    {
+        this->total_price = 0;
+        total_price += this->base_price;
+
+            for(unsigned int i = 0; i < this->number_of_toppings; i++)
+            {
+                total_price += all_toppings[i].get_price();
+            }
+            if(this->cheesy_crust == true)
+            {
+                total_price += 250;
+            }
+    }
+    total_price /= 15;
+    total_price *= this->pizza_size;
+    return this->total_price;
+}
+
+
+
 
 bool Pizza::is_cheesy_crust()
 {
