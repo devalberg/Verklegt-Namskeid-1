@@ -14,6 +14,7 @@ class Topping
         double get_price();
         string get_name();
         unsigned int get_id();
+        void change_string_to_arr(char arr[], string name);
 
 
     private:

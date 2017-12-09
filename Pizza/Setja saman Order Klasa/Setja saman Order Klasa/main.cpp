@@ -19,7 +19,7 @@ void vieworders(Order* orders, int numbOfOrders)
     {
         Order temp_order = orders[i];
 
-        cout << temp_order << endl;
+            cout << temp_order << endl;
     }
 }
 
@@ -56,7 +56,7 @@ void deleteorder(Order* orders)
     fout.seekp(sizeof(Order)*k);
     fout.write((char*)&neworder[k], sizeof(Order));
     fout.close();
-    delete[] neworder;
+   // delete[] neworder;
 }
 void createorder()
 {
@@ -77,6 +77,7 @@ void createorder()
     order.change_order_id(k);
 
     cin >> order;
+    //cout << "Cheeky cout hehehheh";
     ofstream fout;
     fout.open("Orders.dat", ios::binary|ios::app);
 
@@ -101,9 +102,8 @@ int main()
         fin.close();
 
         cout << "Order menu:" << endl;
-        cout << "View 'v', Create 'c', Delete 'd', Close program 'q' :";
+        cout << "View 'v', Create 'c', Delete 'd':";
         cin >> input;
-        cout << endl << endl;
         if(input == 'd')
         {
             deleteorder(orders);
@@ -161,7 +161,10 @@ pizza_plain.onoffmenu(false);
 twin_pizza1.onoffmenu(false);
 twin_pizza2.onoffmenu(false);
 
-
+Drink FizzBuzz_S(50, 0.5, "FizzBuzz", 0);
+Drink FizzBuzz_L(100, 1, "FizzBuzz", 1);
+Drink PurpleDrank_S(100, 0.5, "PurpleDrank", 2);
+Drink PurpleDrank_L(200, 1, "PurpleDrank", 3);
 
 
 Order order;

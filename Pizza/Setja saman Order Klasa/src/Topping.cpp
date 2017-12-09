@@ -27,3 +27,13 @@ unsigned int Topping::get_id()
 {
     return this->topping_id;
 }
+
+void Side::change_string_to_arr(char arr[], string name)
+{
+   unsigned int n=name.size();
+
+    for(unsigned int i = 0; i <= n; i++)
+        {
+            arr[i]=name[i];
+        }
+}
