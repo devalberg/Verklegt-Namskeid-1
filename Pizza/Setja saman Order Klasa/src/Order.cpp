@@ -166,10 +166,11 @@ istream &operator >> (istream& in, Order& current_order)
         {
          current_order.take_drink_order(current_order);
         }
-//        else if (user_input == 'p')
-  //      {
+        else if (user_input == 'p')
+        {
+            cout << "Coming soon :^)" << endl;
     //    current_order.take_pizza_order(current_order);
-      //  }
+        }
         else if (user_input == 'c')
         {
             break;
