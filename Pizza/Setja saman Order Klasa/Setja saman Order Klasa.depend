@@ -22,19 +22,20 @@
 1512847804 c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\include\drink.h
 	"Topping.h"
 
-1512848998 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\drink.cpp
+1512849868 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\drink.cpp
 	"Drink.h"
 
 1512578361 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\pizza.cpp
 	"Pizza.h"
 
-1512841366 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\side.cpp
+1512849996 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\side.cpp
 	"Side.h"
 	<cstring>
 
 1512841387 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\topping.cpp
 	"Topping.h"
 
-1512848374 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\order.cpp
+1512850433 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\order.cpp
 	"Order.h"
+	<cstdlib>
 

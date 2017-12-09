@@ -1,7 +1,12 @@
 #include "Order.h"
+#include <cstdlib>
+
 
 void Order::take_side_order(Order& current_order)
 {
+    system("cls");
+
+
 /// Kannski hafa öll nöfn með jafn marga stafi, fylla inn í með auðum plássum
     ///Þarf að lesa öll sides úr skrá
     Side really_bad_wings("Really Bad Wings", 300, 0, 2);
@@ -41,6 +46,7 @@ void Order::take_side_order(Order& current_order)
 
 void Order::take_drink_order(Order& current_order)
 {
+    system("cls");
 
     ///Þarf að lesa alla Drinks úr skrá
 
@@ -59,34 +65,41 @@ void Order::take_drink_order(Order& current_order)
         if (temp_side_id == 'F')
         {
             current_order.add_drink(FizzBuzz_L);
-            cout << "FizzBuzz, Large x1" << endl;
+            cout << "FizzBuzz, Large x1";
         }
         else if (temp_side_id == 'f')
         {
             current_order.add_drink(FizzBuzz_S);
-            cout << "FizzBuzz, Small x1" << endl;
+            cout << "FizzBuzz, Small x1";
         }
         else if (temp_side_id == 'P')
         {
             current_order.add_drink(PurpleDrank_L);
-            cout << "Purple Drank, Large x1" << endl;
+            cout << "Purple Drank, Large x1";
         }
         else if (temp_side_id == 'p')
         {
             current_order.add_drink(PurpleDrank_S);
-            cout << "Purple Drank, Small x1" << endl;
+            cout << "Purple Drank, Small x1";
         }
         else if (temp_side_id == 'q')
         {
             break;
         }
-        else(cout << "Wrong input m88");
+        else(cout << "Wrong input m88. youre not good");
         }
 }
 
 
 Order::Order()
 {
+
+    Drink temp_drink(0 ,0 , " ", 999);
+    drinks_list[0] = temp_drink;
+
+    Side temp_side(" ",0 ,0 , 999);
+    sides_list[0] = temp_side;
+
     this->status = 0;
     this->number_of_sides = 0;
     this->number_of_drinks = 0;
@@ -101,6 +114,7 @@ Order::Order()
 
 ostream &operator << (ostream& out, Order& current_order)
 {
+    system("cls");
     char user_type = 's';
 
     if(user_type == 's')
@@ -144,7 +158,6 @@ ostream &operator << (ostream& out, Order& current_order)
         out << "Phone: " << current_order.name[0] << endl;
         out << "Address: " << current_order.address[0] << endl << endl;
         out << "========================================================" << endl;
-        out << endl << endl;
 
     return out;
 }

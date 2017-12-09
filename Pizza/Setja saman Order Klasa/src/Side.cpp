@@ -64,7 +64,8 @@ ostream &operator << (ostream& out, Side* current_side_list)
                 {
                     if(i == current_side_list[k].get_id())
                     {
-                        out << "\t" << current_side_list[k].get_name() << "\t" << current_side_list[k].get_price() << "kr." << "\t" << n << "x" << endl;
+                        out << "\t" << current_side_list[k].get_name() << "\t" << current_side_list[k].get_price();
+                        out << "kr." << "\t" << n << "x" << endl;
                         break;
                     }
                 }

@@ -38,9 +38,6 @@ ostream &operator << (ostream& out, Drink* current_drink_list)
         }
     }
 
-    cout << "Number of drinks: " << number_of_drinks << endl;
-
-
     for (unsigned int i = 0; i < number_of_drink_types ; i++)
     {
         n = 0;
