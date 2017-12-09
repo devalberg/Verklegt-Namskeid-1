@@ -1,0 +1,192 @@
+# depslib dependency file v1.0
+1512625277 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\models\employee.cpp
+	"Employee.h"
+	<cstring>
+
+1512697723 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\ui\employeeui.cpp
+	"EmployeeUI.h"
+	<iostream>
+	<string>
+	<cstdlib>
+	<conio.h>
+	"InvalidMainMenuInput.h"
+
+1512515974 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\main.cpp
+	<iostream>
+	"EmployeeUI.h"
+
+1512622573 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\models\employee.h
+	<iostream>
+
+1512697554 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\ui\employeeui.h
+	"Employee.h"
+	"EmployeeService.h"
+
+1512697448 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\service\employeeservice.cpp
+	"EmployeeService.h"
+
+1512696768 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\service\employeeservice.h
+	"Employee.h"
+	"EmployeeRepo.h"
+	"InvalidNameException.h"
+	"InvalidSSNException.h"
+	"InvalidSalaryException.h"
+	"InvalidMonthException.h"
+	"InvalidYearException.h"
+	<vector>
+	<string>
+
+1512543823 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\exceptions\invalidnameexception.cpp
+	"InvalidNameException.h"
+
+1512543823 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\exceptions\invalidnameexception.h
+
+1512624256 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\exceptions\invalidssnexception.cpp
+	"InvalidSSNException.h"
+
+1512620237 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\exceptions\invalidssnexception.h
+	<string>
+
+1512515974 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\main.cpp
+	<iostream>
+	"EmployeeUI.h"
+
+1512697554 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\ui\employeeui.h
+	"Employee.h"
+	"EmployeeService.h"
+
+1512622573 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\models\employee.h
+	<iostream>
+
+1512696768 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\service\employeeservice.h
+	"Employee.h"
+	"EmployeeRepo.h"
+	"InvalidNameException.h"
+	"InvalidSSNException.h"
+	"InvalidSalaryException.h"
+	"InvalidMonthException.h"
+	"InvalidYearException.h"
+	<vector>
+	<string>
+
+1512543823 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\exceptions\invalidnameexception.h
+
+1512620237 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\exceptions\invalidssnexception.h
+	<string>
+
+1512543823 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\exceptions\invalidnameexception.cpp
+	"InvalidNameException.h"
+
+1512624256 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\exceptions\invalidssnexception.cpp
+	"InvalidSSNException.h"
+
+1512625277 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\models\employee.cpp
+	"Employee.h"
+	<cstring>
+
+1512697448 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\service\employeeservice.cpp
+	"EmployeeService.h"
+
+1512697723 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\ui\employeeui.cpp
+	"EmployeeUI.h"
+	<iostream>
+	<string>
+	<cstdlib>
+	<conio.h>
+	"InvalidMainMenuInput.h"
+
+1512580242 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\exceptions\invalidmonthexception.h
+
+1512620664 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\exceptions\invalidyearexception.h
+	<string>
+
+1512580242 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\exceptions\invalidmonthexception.cpp
+	"InvalidMonthException.h"
+
+1512580215 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\exceptions\invalidsalaryexception.cpp
+	"InvalidSalaryException.h"
+
+1512580215 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\exceptions\invalidsalaryexception.h
+
+1512620819 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\exceptions\invalidyearexception.cpp
+	"InvalidYearException.h"
+	<sstream>
+
+1512625116 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\repository\employeerepo.cpp
+	"EmployeeRepo.h"
+	<fstream>
+	<cstdlib>
+	<string>
+
+1512713150 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\repository\employeerepo.h
+	"Employee.h"
+	<vector>
+	"InvalidFileException.h"
+
+1512590904 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\exceptions\nonexistingssnexception.h
+
+1512590904 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\exceptions\nonexistingssnexception.cpp
+	"NonExistingSSNException.h"
+
+1512713150 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\repository\employeerepo.h
+	"Employee.h"
+	<vector>
+	"InvalidFileException.h"
+
+1512580215 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\exceptions\invalidsalaryexception.h
+
+1512580242 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\exceptions\invalidmonthexception.h
+
+1512620664 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\exceptions\invalidyearexception.h
+	<string>
+
+1512590904 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\exceptions\nonexistingssnexception.h
+
+1512580242 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\exceptions\invalidmonthexception.cpp
+	"InvalidMonthException.h"
+
+1512580215 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\exceptions\invalidsalaryexception.cpp
+	"InvalidSalaryException.h"
+
+1512620819 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\exceptions\invalidyearexception.cpp
+	"InvalidYearException.h"
+	<sstream>
+
+1512590904 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\exceptions\nonexistingssnexception.cpp
+	"NonExistingSSNException.h"
+
+1512625116 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\repository\employeerepo.cpp
+	"EmployeeRepo.h"
+	<fstream>
+	<cstdlib>
+	<string>
+
+1512608085 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\exceptions\invalidmainmenuinput.cpp
+	"InvalidMainMenuInput.h"
+
+1512608085 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\exceptions\invalidmainmenuinput.h
+
+1512610208 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\exceptions\yearemptyexception.cpp
+	"YearEmptyException.h"
+
+1512610208 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\exceptions\yearemptyexception.h
+
+1512624124 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\exceptions\invalidfileexception.cpp
+	"InvalidFileException.h"
+
+1512624260 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\exceptions\invalidfileexception.h
+	<string>
+	"InvalidFileException.h"
+
+1512624260 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\exceptions\invalidfileexception.h
+	<string>
+	"InvalidFileException.h"
+
+1512624124 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\exceptions\invalidfileexception.cpp
+	"InvalidFileException.h"
+
+1512608085 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\src\exceptions\invalidmainmenuinput.cpp
+	"InvalidMainMenuInput.h"
+
+1512608085 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\week 2\assignment 2\include\exceptions\invalidmainmenuinput.h
+
