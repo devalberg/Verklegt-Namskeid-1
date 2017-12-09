@@ -1,9 +1,9 @@
 # depslib dependency file v1.0
-1512839198 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\main.cpp
+1512848032 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\main.cpp
 	"Order.h"
 	<fstream>
 
-1512840116 c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\include\order.h
+1512845205 c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\include\order.h
 	"Pizza.h"
 	"Side.h"
 	"Drink.h"
@@ -16,25 +16,25 @@
 	<string>
 	<vector>
 
-1512840407 c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\include\side.h
+1512841374 c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\include\side.h
 	"Topping.h"
 
-1512840617 c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\include\drink.h
+1512847804 c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\include\drink.h
 	"Topping.h"
 
-1512572357 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\drink.cpp
+1512847804 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\drink.cpp
 	"Drink.h"
 
 1512578361 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\pizza.cpp
 	"Pizza.h"
 
-1512834256 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\side.cpp
+1512841366 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\side.cpp
 	"Side.h"
 	<cstring>
 
-1512576247 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\topping.cpp
+1512841387 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\topping.cpp
 	"Topping.h"
 
-1512839313 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\order.cpp
+1512848374 source:c:\users\saemundur\desktop\3-vikna\pizza\setja saman order klasa\src\order.cpp
 	"Order.h"
 

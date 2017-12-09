@@ -60,9 +60,13 @@ void deleteorder(Order* orders)
 }
 void createorder()
 {
+
     int k;
+
     Order order;
+
     ifstream kin;
+
     kin.open("ordernumber.txt");
     kin >> k;
     kin.close();
@@ -76,6 +80,7 @@ void createorder()
 
     order.change_order_id(k);
 
+
     cin >> order;
     ofstream fout;
     fout.open("Orders.dat", ios::binary|ios::app);
@@ -85,6 +90,7 @@ void createorder()
 }
 int main()
 {
+
     char input;
 
     do
@@ -122,84 +128,3 @@ int main()
 
     return 0;
 }
-
-/*
-Order order2;
-
-cin >> order2;
-
-//cout << order << endl;
-cout << order2;
-
-    return 0;
-}
-
-
-
-
-vector<Topping> _all_toppings;
-int _pizza_size = 16;
-bool _cheesy_crust = true;
-
-vector<Topping> no_toppings;
-int _pizza_size_2 = 18;
-bool _cheesy_crust_2 = false;
-
-Topping pepperoni("pepperoni", 100, 0, 0);
-Topping not_pineapple("Not Pineapple", 200, 1, 1);
-_all_toppings.push_back(pepperoni);
-_all_toppings.push_back(not_pineapple);
-
-
-Pizza pizza(_all_toppings, _pizza_size, _cheesy_crust, 1350, 0);
-Pizza pizza_plain(no_toppings, _pizza_size_2, _cheesy_crust_2, 1350, 0);
-Pizza twin_pizza1(_all_toppings, _pizza_size, _cheesy_crust, 1350, 0);
-Pizza twin_pizza2(_all_toppings, _pizza_size, _cheesy_crust, 1350, 0);
-
-pizza.onoffmenu(false);
-pizza_plain.onoffmenu(false);
-twin_pizza1.onoffmenu(false);
-twin_pizza2.onoffmenu(false);
-
-
-
-
-Order order;
-pizza.add_topping(pepperoni);
-pizza.add_topping(pepperoni);
-
-order.add_pizza(pizza);
-order.add_pizza(pizza_plain);
-order.add_pizza(twin_pizza1);
-order.add_pizza(twin_pizza2);
-
-order.add_drink(FizzBuzz_S);
-order.add_drink(FizzBuzz_L);
-order.add_drink(PurpleDrank_L);
-order.add_drink(FizzBuzz_S);
-order.add_drink(FizzBuzz_L);
-order.add_drink(FizzBuzz_L);
-order.add_drink(PurpleDrank_L);
-order.add_drink(FizzBuzz_L);
-order.add_drink(FizzBuzz_L);
-order.add_drink(PurpleDrank_L);
-order.add_drink(PurpleDrank_S);
-
-Side guac("guac, the real guac", 150, 0, 0);
-Side cold_pizza("Cold Personal Pizza", 450, 0, 1);
-Side really_bad_wings("Really Bad Wings", 300, 0, 2);
-/// Kannski hafa öll nöfn með jafn marga stafi, fylla inn í með auðum plássum
-
-order.add_side(really_bad_wings);
-order.add_side(guac);
-order.add_side(cold_pizza);
-order.add_side(really_bad_wings);
-order.add_side(guac);
-order.add_side(cold_pizza);
-order.add_side(cold_pizza);
-order.add_side(guac);
-order.add_side(guac);
-order.add_side(cold_pizza);
-order.add_side(guac);
-order.add_side(guac);
-*/

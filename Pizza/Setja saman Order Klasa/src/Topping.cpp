@@ -28,7 +28,7 @@ unsigned int Topping::get_id()
     return this->topping_id;
 }
 
-void Side::change_string_to_arr(char arr[], string name)
+void Topping::change_string_to_arr(char arr[], string name)
 {
    unsigned int n=name.size();
 

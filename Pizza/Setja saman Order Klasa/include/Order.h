@@ -42,7 +42,8 @@ class Order
         double total_price;
         unsigned int order_id;
         unsigned int number_of_sides;
-        bool dilivery;
+        unsigned int number_of_drinks;
+        bool delivery;
         char comment[256];
         char name[64];
         char address[32];

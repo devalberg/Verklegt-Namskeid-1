@@ -74,4 +74,12 @@ ostream &operator << (ostream& out, Side* current_side_list)
         return out;
 }
 
+void Side::change_string_to_arr(char arr[], string name)
+{
+   unsigned int n=name.size();
 
+    for(unsigned int i = 0; i <= n; i++)
+        {
+            arr[i]=name[i];
+        }
+}

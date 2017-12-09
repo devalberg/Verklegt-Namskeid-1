@@ -12,6 +12,7 @@ class Side
         double get_price();
         unsigned int get_id();
         friend ostream &operator << (ostream& out, Side* current_side_list);
+        void change_string_to_arr(char arr[], string name);
 
 
     private:

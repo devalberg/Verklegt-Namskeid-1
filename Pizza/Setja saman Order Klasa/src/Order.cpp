@@ -2,7 +2,7 @@
 
 void Order::take_side_order(Order& current_order)
 {
-
+/// Kannski hafa öll nöfn með jafn marga stafi, fylla inn í með auðum plássum
     ///Þarf að lesa öll sides úr skrá
     Side really_bad_wings("Really Bad Wings", 300, 0, 2);
     Side guac("guac, the real guac", 150, 0, 0);
@@ -54,6 +54,7 @@ void Order::take_drink_order(Order& current_order)
 
     while(true)
         {
+        cout << endl;
         cin >> temp_side_id;
         if (temp_side_id == 'F')
         {
@@ -84,16 +85,18 @@ void Order::take_drink_order(Order& current_order)
 }
 
 
-
-
-
 Order::Order()
 {
+    this->status = 0;
     this->number_of_sides = 0;
-    this->comment[0] = 'B';
-    this->name[0] = 'H';
-    this->phone[0] = '6';
-    this->address[0] = 'D';
+    this->number_of_drinks = 0;
+    this->comment[0] = '\0';
+    this->name[0] = '\0';
+    this->phone[0] = '\0';
+    this->address[0] = '\0';
+    this-> order_id = 0;
+    this-> number_of_sides = 0;
+    this-> number_of_drinks = 0;
 }
 
 ostream &operator << (ostream& out, Order& current_order)
@@ -113,9 +116,9 @@ ostream &operator << (ostream& out, Order& current_order)
             }
         out << endl << endl ;
         out << "--------------------------------------------------------" << endl;
-   */     out << "Drinks:" << endl;
+   */       out << "Drinks:" << endl;
 
-                out << current_order.drinks_list << " ";
+            out << current_order.drinks_list << " ";
 
         out << endl ;
         out << "--------------------------------------------------------" << endl;
@@ -163,10 +166,10 @@ istream &operator >> (istream& in, Order& current_order)
         {
          current_order.take_drink_order(current_order);
         }
-        else if (user_input == 'p')
-        {
-//        current_order.take_pizza_order(current_order);
-        }
+//        else if (user_input == 'p')
+  //      {
+    //    current_order.take_pizza_order(current_order);
+      //  }
         else if (user_input == 'c')
         {
             break;
@@ -181,7 +184,6 @@ istream &operator >> (istream& in, Order& current_order)
 void Order::update_price()
 {
 
-    cout << "Number of sides: " << number_of_sides << endl;
     this->total_price = 0;
     double pizza_price = 0;
     double drink_price = 0;
@@ -227,7 +229,11 @@ void Order::add_pizza(Pizza current_pizza)
 
 void Order::add_drink(Drink current_drink)
 {
-//    this->drinks_list.push_back(current_drink);
+    Drink temp_drink(0 ,0 , " ", 999);
+    drinks_list[this->number_of_drinks] = current_drink;
+    drinks_list[this->number_of_drinks + 1] = temp_drink;
+
+    this->number_of_drinks++;
 }
 void Order::add_side(Side current_side)
 {
