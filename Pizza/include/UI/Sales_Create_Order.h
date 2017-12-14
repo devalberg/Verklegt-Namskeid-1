@@ -24,6 +24,7 @@ class Sales_Create_Order
         void delete_drink();
 
         Location location;
+        Location choose_location();
         string customer_name;
         string customer_phone;
         string comment;
