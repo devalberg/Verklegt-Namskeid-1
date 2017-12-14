@@ -1,252 +1,1113 @@
 # depslib dependency file v1.0
-1511903104 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\login.cpp
-	"login.h"
-
-1511921395 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\main.cpp
-	"login.h"
-	"textcolors.h"
-
-1511903098 c:\users\danie\desktop\gitgud\3-vikna\pizza\login.h
+1513243558 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\main.cpp
 	<iostream>
+	"LoginUI.h"
+	"Admin_Main_UI.h"
+	"Sales_Menu_Pizza.h"
+	"Sales_Menu_Custom_Pizza.h"
+	"Sales_Menu_Drinks.h"
+	"Sales_Menu_Sides.h"
+	"Sales_Create_Order.h"
+
+1513184107 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\loginui.h
+	"User.h"
+	"LoginServices.h"
+	"MiscUIFunctions.h"
+
+1513184309 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\models\user.h
 	<string>
-	<conio.h>
-	<stdlib.h>
-	<Windows.h>
-
-1511921433 c:\users\danie\desktop\gitgud\3-vikna\pizza\headers\login.h
-	<iostream>
-	<string>
-	<conio.h>
-	<stdlib.h>
-	<Windows.h>
-
-1511909535 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\src\login.cpp
-	"login.h"
-	"textcolors.h"
-
-1511906272 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\src\textcolors.cpp
-	<stdlib.h>
-	<Windows.h>
-
-1511906275 c:\users\danie\desktop\gitgud\3-vikna\pizza\headers\textcolors.h
-
-1511910119 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\src\baker.cpp
-
-1511910153 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\src\deliver.cpp
-
-1511910090 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\src\order.cpp
-
-1511910664 source:c:\users\danie\desktop\gitgud\3-vikna\pizza\src\admin.cpp
-
-1511963901 source:c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\src\admin.cpp
-
-1511963901 source:c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\src\baker.cpp
-
-1511963901 source:c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\src\deliver.cpp
-
-1511963901 source:c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\src\login.cpp
-	"login.h"
-	"textcolors.h"
-
-1511963901 source:c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\src\order.cpp
-
-1511978943 source:c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\src\textcolors.cpp
-	<stdlib.h>
-	<Windows.h>
-
-1511977984 c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\headers\login.h
-
-1511978943 c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\headers\textcolors.h
-
-1511978698 D
-	"textcolors.h"
-	<windows.h>
-	"textcolors.h"
-	"LoginUI.h"
-
-1511990159 source:c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\main.cpp
-	"LoginUI.h"
-	"textcolors.h"
-	"SaleUI.h"
 	<iostream>
 
-1511974743 source:c:\users\krisitnn\desktop\3-vikna\pizza\main.cpp
-	"LoginUI.h"
-	"textcolors.h"
+1513054444 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\services\loginservices.h
+	"LoginRepository.h"
+	"User.h"
+	"InvalidUsernameException.h"
+	"InvalidPasswordException.h"
+	"InvalidLoginException.h"
+	"InvalidUserTypeException.h"
 
-1511964599 source:c:\users\krisitnn\desktop\3-vikna\pizza\src\login.cpp
-	"login.h"
-	"textcolors.h"
-
-1511964599 source:c:\users\krisitnn\desktop\3-vikna\pizza\src\order.cpp
-
-1511964599 source:c:\users\krisitnn\desktop\3-vikna\pizza\src\textcolors.cpp
-	<stdlib.h>
-	<Windows.h>
-
-1511974743 c:\users\krisitnn\desktop\3-vikna\pizza\headers\loginui.h
-
-1511965085 71e37b9103f3e733bccb9c435439aa01f7bb3
-	"LoginUI.h"
-	"textcolors.h"
-	"SaleUI.h"
-	<iostream>
-
-1511999631 c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\headers\loginui.h
-	<string>
-
-1511965085 574f45b2b35a21e4261409566dfe720ac6fce
-	"AdminUI.h"
-	"SaleUI.h"
-	"BakerUI.h"
-	"DeliveryUI.h"
-	<iostream>
-	<string>
-	<conio.h>
-	<stdlib.h>
-
-1511968201 s.h"
-
-1511974686 c:\users\krisitnn\desktop\3-vikna\pizza\headers\adminui.h
-	<iostream>
-
-1511974686 c:\users\krisitnn\desktop\3-vikna\pizza\headers\saleui.h
-	<iostream>
-
-1511974686 c:\users\krisitnn\desktop\3-vikna\pizza\headers\bakerui.h
-	<iostream>
-
-1511974686 c:\users\krisitnn\desktop\3-vikna\pizza\headers\deliveryui.h
-	<iostream>
-
-1511964599 c:\users\krisitnn\desktop\3-vikna\pizza\headers\textcolors.h
-
-1511974620 source:c:\users\krisitnn\desktop\3-vikna\pizza\src\adminui.cpp
-	"AdminUI.h"
-
-1511976764 source:c:\users\krisitnn\desktop\3-vikna\pizza\src\bakerui.cpp
-	"BakerUI.h"
-
-1511976764 source:c:\users\krisitnn\desktop\3-vikna\pizza\src\deliveryui.cpp
-	"DeliveryUI.h"
-
-1511976902 source:c:\users\krisitnn\desktop\3-vikna\pizza\src\loginui.cpp
-	"LoginUI.h"
-	"login.h"
-	"textcolors.h"
-
-1511974073 c:\users\krisitnn\desktop\3-vikna\pizza\headers\login.h
-
-1511976764 source:c:\users\krisitnn\desktop\3-vikna\pizza\src\saleui.cpp
-	"SaleUI.h"
-
-1511965085 
-	<Windows.h>
-
-1511994222 c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\headers\adminui.h
-	<iostream>
-	"LoginUI.h"
-
-1511989680 c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\headers\saleui.h
-	<iostream>
-	"LoginUI.h"
-
-1511989811 c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\headers\bakerui.h
-	<iostream>
-	"LoginUI.h"
-
-1511989688 c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\headers\deliveryui.h
-	<iostream>
-	"LoginUI.h"
-
-1511999036 source:c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\src\adminui.cpp
-	"AdminUI.h"
-	"DeliveryUI.h"
-	"BakerUI.h"
-	"SaleUI.h"
-	<Windows.h>
-	<fstream>
-
-1511989971 source:c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\src\bakerui.cpp
-	"BakerUI.h"
-	<Windows.h>
-
-1511989983 source:c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\src\deliveryui.cpp
-	"DeliveryUI.h"
-	<Windows.h>
-	<textcolors.h>
-
-1511973435 source:c:\users\saemundur\desktop\3-vikna\pizza\main.cpp
-	"LoginUI.h"
-	"textcolors.h"
-	<iostream>
-
-1511973435 c:\users\saemundur\desktop\3-vikna\pizza\headers\loginui.h
-
-1511996609 source:c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\src\loginui.cpp
-	"AdminUI.h"
-	"SaleUI.h"
-	"BakerUI.h"
-	"DeliveryUI.h"
-	"textcolors.h"
-	"LoginUI.h"
-	<iostream>
-	<string>
-	<conio.h>
-	<stdlib.h>
-	<Windows.h>
+1512795890 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\repositories\loginrepository.h
 	<vector>
-	<fstream>
+	"User.h"
 
-1511977984 ed69343c7b2d28a6444841f4ffe9183b2f34c
-	"AdminUI.h"
-	"SaleUI.h"
-	"BakerUI.h"
-	"DeliveryUI.h"
+1512733082 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\exceptions\invalidusernameexception.h
+	<string>
+
+1512727285 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\exceptions\invalidpasswordexception.h
+	"UniversalIncludes.h"
+
+1512727264 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\exceptions\universalincludes.h
+	<string>
+
+1512727245 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\exceptions\invalidloginexception.h
+	"UniversalIncludes.h"
+
+1512727294 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\exceptions\invalidusertypeexception.h
+	"UniversalIncludes.h"
+
+1513136167 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\miscuifunctions.h
 	<iostream>
 	<string>
-	<conio.h>
-	<stdlib.h>
-	<Windows.h>
+	<cstdlib>
 
-1511973435 c:\users\saemundur\desktop\3-vikna\pizza\headers\adminui.h
+1513184602 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\admin_main_ui.h
+	"Admin_User_UI.h"
+	"Admin_Menu_Management.h"
+	"MiscUIFunctions.h"
+	"Admin_Menu_Location.h"
+	"Sales_Main_UI.h"
+	"Baker_Main_UI.h"
+	"Cashier_Main_UI.h"
+	"User.h"
 
-1511973435 c:\users\saemundur\desktop\3-vikna\pizza\headers\saleui.h
+1513130780 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\admin_user_ui.h
+	"LoginServices.h"
+	"MiscUIFunctions.h"
 
-1511973435 c:\users\saemundur\desktop\3-vikna\pizza\headers\bakerui.h
+1512895515 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\admin_menu_management.h
 
-1511973435 c:\users\saemundur\desktop\3-vikna\pizza\headers\deliveryui.h
+1513180226 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\admin_menu_location.h
+	"Location.h"
+	"LocationService.h"
+	"MiscUIFunctions.h"
 
-1511973435 c:\users\saemundur\desktop\3-vikna\pizza\headers\textcolors.h
+1513224979 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\models\location.h
+	"commonItemProperties.h"
 
-1511973435 source:c:\users\saemundur\desktop\3-vikna\pizza\src\adminui.cpp
-	"AdminUI.h"
+1513224972 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\models\commonitemproperties.h
+	<cstring>
+	<string>
 
-1511973435 source:c:\users\saemundur\desktop\3-vikna\pizza\src\bakerui.cpp
-	"BakerUI.h"
+1513180209 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\services\locationservice.h
+	"Location.h"
+	"LocationRepository.h"
+	"InvalidItemIdExceptions.h"
+	"InvalidItemNameException.h"
+	"InvalidItemPriceException.h"
+	<vector>
 
-1511973435 source:c:\users\saemundur\desktop\3-vikna\pizza\src\deliveryui.cpp
-	"DeliveryUI.h"
+1513179941 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\repositories\locationrepository.h
+	"Location.h"
+	<vector>
 
-1511973435 source:c:\users\saemundur\desktop\3-vikna\pizza\src\loginui.cpp
-	"LoginUI.h"
-	"textcolors.h"
-
-1511973435 source:c:\users\saemundur\desktop\3-vikna\pizza\src\order.cpp
-
-1511973435 source:c:\users\saemundur\desktop\3-vikna\pizza\src\saleui.cpp
-	"SaleUI.h"
-
-1511973435 source:c:\users\saemundur\desktop\3-vikna\pizza\src\textcolors.cpp
-	<stdlib.h>
-	<Windows.h>
-
-1511973435 >
-
-1511990009 source:c:\users\dan laptop\desktop\gitgud\3-vikna\pizza\src\saleui.cpp
-	"SaleUI.h"
-	"textcolors.h"
+1513181813 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\exceptions\invaliditemidexceptions.h
 	<iostream>
-	<Windows.h>
+
+1513125651 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\exceptions\invaliditemnameexception.h
+	<iostream>
+
+1513032412 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\exceptions\invaliditempriceexception.h
+	<iostream>
+
+1513177056 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\sales_main_ui.h
+	<stdlib.h>
+	"User.h"
+
+1513176988 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\baker_main_ui.h
+	"User.h"
+	<stdlib.h>
+
+1513177056 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\cashier_main_ui.h
+	<stdlib.h>
+	"User.h"
+
+1513240052 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\sales_menu_pizza.h
+	<Pizza.h>
+	"SizeService.h"
+	"BottomService.h"
+	"PizzaService.h"
+
+1513237548 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\models\pizza.h
+	"Size.h"
+	"Bottom.h"
+	"Topping.h"
+	<vector>
+
+1513228066 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\models\size.h
+	"commonItemProperties.h"
+
+1513139713 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\models\bottom.h
+	"commonItemProperties.h"
+
+1513117833 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\models\topping.h
+	"commonItemProperties.h"
+
+1513240009 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\sales_menu_custom_pizza.h
+	<Pizza.h>
+	"SizeService.h"
+	"BottomService.h"
+	"PizzaService.h"
+	"ToppingService.h"
+
+1513181779 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\exceptions\invaliditemidexceptions.cpp
+	"InvalidItemIdExceptions.h"
+
+1513136693 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\exceptions\invaliditemnameexception.cpp
+	"InvalidItemNameException.h"
+
+1513123578 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\exceptions\invaliditempriceexception.cpp
+	"InvalidItemPriceException.h"
+
+1513123678 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\exceptions\invaliditemveganexception.cpp
+	"InvalidItemVeganException.h"
+
+1513032901 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\exceptions\invaliditemveganexception.h
+	<iostream>
+
+1512726799 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\exceptions\invalidloginexception.cpp
+	"InvalidLoginException.h"
+
+1512726915 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\exceptions\invalidpasswordexception.cpp
+	"InvalidPasswordException.h"
+
+1512737202 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\exceptions\invalidusernameexception.cpp
+	"InvalidUsernameException.h"
+
+1512727210 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\exceptions\invalidusertypeexception.cpp
+	"InvalidUserTypeException.h"
+
+1512727131 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\exceptions\universalincludes.cpp
+	"UniversalIncludes.h"
+
+1513223583 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\models\bottom.cpp
+	"Bottom.h"
+
+1512855038 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\models\commonitemproperties.cpp
+	"commonItemProperties.h"
+
+1513223577 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\models\drink.cpp
+	"Drink.h"
+
+1513117405 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\models\drink.h
+	"commonItemProperties.h"
+
+1513223592 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\models\location.cpp
+	"Location.h"
+
+1513277332 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\models\order.cpp
+	"Order.h"
+
+1513276805 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\models\order.h
+	<vector>
+	"Pizza.h"
+	"Side.h"
+	"Drink.h"
+	"Location.h"
+
+1513117811 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\models\side.h
+	"commonItemProperties.h"
+
+1513237544 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\models\pizza.cpp
+	"Pizza.h"
+	<iomanip>
+	<iostream>
+	<vector>
+	"BottomService.h"
+	"SizeService.h"
+
+1513227130 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\services\bottomservice.h
+	"Bottom.h"
+	"BottomsRepository.h"
+	"InvalidItemIdExceptions.h"
+	"InvalidItemNameException.h"
+	"InvalidItemPriceException.h"
+	"InvalidItemVeganException.h"
+	<vector>
+
+1513112689 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\repositories\bottomsrepository.h
+	"Bottom.h"
+	<vector>
+
+1513230335 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\services\sizeservice.h
+	"Size.h"
+	"SizeRepository.h"
+	"InvalidItemIdExceptions.h"
+	"InvalidItemNameException.h"
+	"InvalidItemPriceException.h"
+	"InvalidItemVeganException.h"
+	<vector>
+
+1512970289 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\repositories\sizerepository.h
+	"Size.h"
+	<vector>
+
+1513224898 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\models\side.cpp
+	"Side.h"
+
+1513228125 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\models\size.cpp
+	"Size.h"
+	<iomanip>
+
+1513224927 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\models\topping.cpp
+	"Topping.h"
+
+1513055567 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\models\user.cpp
+	"User.h"
+	<cstring>
+	<iostream>
+
+1512967961 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\repositories\bottomsrepository.cpp
+	"BottomsRepository.h"
+	<fstream>
+	<cstring>
+
+1512965490 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\repositories\drinksrepository.cpp
+	"DrinksRepository.h"
+	<fstream>
+	<cstring>
+
+1512965462 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\repositories\drinksrepository.h
+	"Drink.h"
+	<vector>
+
+1513224991 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\repositories\locationrepository.cpp
+	"LocationRepository.h"
+	<fstream>
+
+1512852425 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\repositories\loginrepository.cpp
+	"LoginRepository.h"
+	<fstream>
+	<cstring>
+
+1513271061 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\repositories\orderrepository.cpp
+	"OrderRepository.h"
+	<fstream>
+	<cstring>
+
+1513270948 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\repositories\orderrepository.h
+	"Order.h"
+	<vector>
+
+1512971261 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\repositories\pizzarepository.cpp
+	"PizzaRepository.h"
+	<fstream>
+	<cstring>
+
+1512970956 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\repositories\pizzarepository.h
+	"Pizza.h"
+	<vector>
+
+1512964961 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\repositories\sidesrepository.cpp
+	"SidesRepository.h"
+	<fstream>
+	<cstring>
+
+1512955784 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\repositories\sidesrepository.h
+	"Side.h"
+	<vector>
+
+1512969987 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\repositories\sizerepository.cpp
+	"SizeRepository.h"
+	<fstream>
+	<cstring>
+
+1513140801 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\repositories\toppingrepository.cpp
+	"ToppingRepository.h"
+	<fstream>
+	<cstring>
+
+1513140782 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\repositories\toppingrepository.h
+	"Topping.h"
+	<vector>
+
+1513227117 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\services\bottomservice.cpp
+	"BottomService.h"
+
+1513276188 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\services\drinkservice.cpp
+	"DrinkService.h"
+
+1513240573 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\services\drinkservice.h
+	"Drink.h"
+	"DrinksRepository.h"
+	"InvalidItemIdExceptions.h"
+	"InvalidItemNameException.h"
+	"InvalidItemPriceException.h"
+	<vector>
+
+1513179864 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\services\locationservice.cpp
+	"LocationService.h"
+
+1513055168 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\services\loginservices.cpp
+	"LoginServices.h"
+
+1513274192 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\services\orderservice.cpp
+	"OrderService.h"
+
+1513272910 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\services\orderservice.h
+	"Order.h"
+	"OrderRepository.h"
+
+1513230409 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\services\pizzaservice.cpp
+	"PizzaService.h"
+	"BottomService.h"
+	"ToppingService.h"
+	"SizeService.h"
+
+1513230380 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\services\pizzaservice.h
+	"Pizza.h"
+	"PizzaRepository.h"
+	"InvalidItemIdExceptions.h"
+	"InvalidItemNameException.h"
+	"InvalidItemPriceException.h"
+	"InvalidItemVeganException.h"
+	<vector>
+
+1513233714 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\services\toppingservice.h
+	<vector>
+	"Topping.h"
+	"InvalidItemIdExceptions.h"
+	"InvalidItemNameException.h"
+	"InvalidItemPriceException.h"
+	"InvalidItemVeganException.h"
+	"ToppingRepository.h"
+
+1513241711 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\services\sideservice.cpp
+	"SideService.h"
+
+1513241627 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\services\sideservice.h
+	"Side.h"
+	"SidesRepository.h"
+	"InvalidItemIdExceptions.h"
+	"InvalidItemNameException.h"
+	"InvalidItemPriceException.h"
+	"InvalidItemVeganException.h"
+	<vector>
+
+1513227165 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\services\sizeservice.cpp
+	"SizeService.h"
+
+1513233701 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\services\toppingservice.cpp
+	"ToppingService.h"
+
+1513184602 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\admin_main_ui.cpp
+	"Admin_Main_UI.h"
+	<iostream>
+	<cstdlib>
+
+1513183486 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\admin_menu_bottoms.cpp
+	"Admin_Menu_Bottoms.h"
+	<iostream>
+	<cstdlib>
+	<iomanip>
+
+1513134648 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\admin_menu_bottoms.h
+	"BottomService.h"
+	"Bottom.h"
+	"MiscUIFunctions.h"
+
+1513138373 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\admin_menu_drinks.cpp
+	"Admin_Menu_Drinks.h"
+	<iostream>
+	<cstdlib>
+	<iomanip>
+
+1513134652 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\admin_menu_drinks.h
+	"DrinkService.h"
+	"Drink.h"
+	"MiscUIFunctions.h"
+
+1513184260 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\admin_menu_location.cpp
+	"Admin_Menu_Location.h"
+	<iomanip>
+
+1513052373 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\admin_menu_management.cpp
+	"Admin_Menu_Management.h"
+	<iostream>
+	<cstdlib>
+	"Admin_Menu_Toppings.h"
+	"Admin_Menu_Sides.h"
+	"Admin_Menu_Drinks.h"
+	"Admin_Menu_Bottoms.h"
+	"Admin_Menu_Sizes.h"
+	"Admin_Menu_Pizza.h"
+
+1513134723 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\admin_menu_toppings.h
+	"ToppingService.h"
+	"MiscUIFunctions.h"
+
+1513134665 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\admin_menu_sides.h
+	"SideService.h"
+	"MiscUIFunctions.h"
+
+1513134696 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\admin_menu_sizes.h
+	"SizeService.h"
+	"Size.h"
+	"MiscUIFunctions.h"
+
+1513134658 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\admin_menu_pizza.h
+	"PizzaService.h"
+	"Pizza.h"
+	"MiscUIFunctions.h"
+
+1513225503 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\admin_menu_pizza.cpp
+	"Admin_Menu_Pizza.h"
+	<iostream>
+	<cstdlib>
+	<iomanip>
+	<conio.h>
+	"BottomService.h"
+	"ToppingService.h"
+	"SizeService.h"
+
+1513141148 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\admin_menu_sides.cpp
+	"Admin_Menu_Sides.h"
+	<iostream>
+	<cstdlib>
+	<iomanip>
+
+1513139595 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\admin_menu_size.cpp
+	"Admin_Menu_Sizes.h"
+	<iostream>
+	<cstdlib>
+	<iomanip>
+
+1513141190 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\admin_menu_toppings.cpp
+	"Admin_Menu_Toppings.h"
+	<iostream>
+	<cstdlib>
+	<iomanip>
+
+1513055967 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\admin_user_ui.cpp
+	"Admin_User_UI.h"
+	<iomanip>
+	<iostream>
+	<cstdlib>
+
+1513176811 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\baker_main_ui.cpp
+	"Baker_Main_UI.h"
+
+1513176811 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\cashier_main_ui.cpp
+	"Cashier_Main_UI.h"
+
+1513185871 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\loginui.cpp
 	"LoginUI.h"
+	<iostream>
+	<conio.h>
+	<cstdlib>
+	"MiscUIFunctions.h"
+
+1513185239 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\miscuifunctions.cpp
+	"MiscUIFunctions.h"
+
+1513275485 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\sales_main_ui.cpp
+	"Sales_Main_UI.h"
+	"Sales_Menu_Pizza.h"
+
+1513240053 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\sales_menu_pizza.cpp
+	"Sales_Menu_Pizza.h"
+	<iostream>
+	<iomanip>
+	<cstdlib>
+
+1513243689 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\sales_menu_custom_pizza.cpp
+	"Sales_Menu_Custom_Pizza.h"
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	"SizeService.h"
+	"BottomService.h"
+	"PizzaService.h"
+	"ToppingService.h"
+
+1513241410 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\sales_menu_drinks.cpp
+	"Sales_Menu_Drinks.h"
+	<iostream>
+	<iomanip>
+	<cstdlib>
+
+1513241133 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\sales_menu_drinks.h
+	"Drink.h"
+	"DrinkService.h"
+	<vector>
+
+1513241875 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\sales_menu_sides.cpp
+	"Sales_Menu_Sides.h"
+	<iostream>
+	<iomanip>
+	<cstdlib>
+
+1513241815 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\sales_menu_sides.h
+	<vector>
+	"Side.h"
+	"SideService.h"
+
+1513278684 source:c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\sales_create_order.cpp
+	"Sales_Create_Order.h"
+	"LocationService.h"
+	<cstdlib>
+
+1513278030 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\sales_create_order.h
+	"Sales_Menu_Custom_Pizza.h"
+	"Sales_Menu_Pizza.h"
+	"Sales_Menu_Sides.h"
+	"Sales_Menu_Drinks.h"
+	"OrderService.h"
+	"Location.h"
+
+1513277577 source:c:\users\danie\onedrive -reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\sales_orders.cpp
+	"Sales_Orders.h"
+	<iostream>
+	<string>
+	<cstdlib>
+
+1513276184 c:\users\danie\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\sales_orders.h
+	"OrderService.h"
+
+1513290198 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\main.cpp
+	<iostream>
+	"LoginUI.h"
+	"Admin_Main_UI.h"
+	"Sales_Menu_Pizza.h"
+	"Sales_Menu_Custom_Pizza.h"
+	"Sales_Menu_Drinks.h"
+	"Sales_Menu_Sides.h"
+	"Sales_Create_Order.h"
+	"Sales_Orders.h"
+
+1513184107 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\loginui.h
+	"User.h"
+	"LoginServices.h"
+	"MiscUIFunctions.h"
+
+1513184309 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\models\user.h
+	<string>
+	<iostream>
+
+1513054444 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\services\loginservices.h
+	"LoginRepository.h"
+	"User.h"
+	"InvalidUsernameException.h"
+	"InvalidPasswordException.h"
+	"InvalidLoginException.h"
+	"InvalidUserTypeException.h"
+
+1512795890 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\repositories\loginrepository.h
+	<vector>
+	"User.h"
+
+1512733082 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\exceptions\invalidusernameexception.h
+	<string>
+
+1512727285 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\exceptions\invalidpasswordexception.h
+	"UniversalIncludes.h"
+
+1512727264 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\exceptions\universalincludes.h
+	<string>
+
+1512727245 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\exceptions\invalidloginexception.h
+	"UniversalIncludes.h"
+
+1512727294 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\exceptions\invalidusertypeexception.h
+	"UniversalIncludes.h"
+
+1513136167 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\miscuifunctions.h
+	<iostream>
+	<string>
+	<cstdlib>
+
+1513184602 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\admin_main_ui.h
+	"Admin_User_UI.h"
+	"Admin_Menu_Management.h"
+	"MiscUIFunctions.h"
+	"Admin_Menu_Location.h"
+	"Sales_Main_UI.h"
+	"Baker_Main_UI.h"
+	"Cashier_Main_UI.h"
+	"User.h"
+
+1513130780 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\admin_user_ui.h
+	"LoginServices.h"
+	"MiscUIFunctions.h"
+
+1512895515 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\admin_menu_management.h
+
+1513180226 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\admin_menu_location.h
+	"Location.h"
+	"LocationService.h"
+	"MiscUIFunctions.h"
+
+1513224979 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\models\location.h
+	"commonItemProperties.h"
+
+1513224972 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\models\commonitemproperties.h
+	<cstring>
+	<string>
+
+1513180209 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\services\locationservice.h
+	"Location.h"
+	"LocationRepository.h"
+	"InvalidItemIdExceptions.h"
+	"InvalidItemNameException.h"
+	"InvalidItemPriceException.h"
+	<vector>
+
+1513179941 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\repositories\locationrepository.h
+	"Location.h"
+	<vector>
+
+1513181813 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\exceptions\invaliditemidexceptions.h
+	<iostream>
+
+1513125651 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\exceptions\invaliditemnameexception.h
+	<iostream>
+
+1513032412 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\exceptions\invaliditempriceexception.h
+	<iostream>
+
+1513177056 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\sales_main_ui.h
+	<stdlib.h>
+	"User.h"
+
+1513176988 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\baker_main_ui.h
+	"User.h"
+	<stdlib.h>
+
+1513177056 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\cashier_main_ui.h
+	<stdlib.h>
+	"User.h"
+
+1513240052 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\sales_menu_pizza.h
+	<Pizza.h>
+	"SizeService.h"
+	"BottomService.h"
+	"PizzaService.h"
+
+1513237548 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\models\pizza.h
+	"Size.h"
+	"Bottom.h"
+	"Topping.h"
+	<vector>
+
+1513228066 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\models\size.h
+	"commonItemProperties.h"
+
+1513139713 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\models\bottom.h
+	"commonItemProperties.h"
+
+1513117833 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\models\topping.h
+	"commonItemProperties.h"
+
+1513230335 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\services\sizeservice.h
+	"Size.h"
+	"SizeRepository.h"
+	"InvalidItemIdExceptions.h"
+	"InvalidItemNameException.h"
+	"InvalidItemPriceException.h"
+	"InvalidItemVeganException.h"
+	<vector>
+
+1512970289 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\repositories\sizerepository.h
+	"Size.h"
+	<vector>
+
+1513032901 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\exceptions\invaliditemveganexception.h
+	<iostream>
+
+1513227130 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\services\bottomservice.h
+	"Bottom.h"
+	"BottomsRepository.h"
+	"InvalidItemIdExceptions.h"
+	"InvalidItemNameException.h"
+	"InvalidItemPriceException.h"
+	"InvalidItemVeganException.h"
+	<vector>
+
+1513112689 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\repositories\bottomsrepository.h
+	"Bottom.h"
+	<vector>
+
+1513230380 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\services\pizzaservice.h
+	"Pizza.h"
+	"PizzaRepository.h"
+	"InvalidItemIdExceptions.h"
+	"InvalidItemNameException.h"
+	"InvalidItemPriceException.h"
+	"InvalidItemVeganException.h"
+	<vector>
+
+1512970956 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\repositories\pizzarepository.h
+	"Pizza.h"
+	<vector>
+
+1513240009 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\sales_menu_custom_pizza.h
+	<Pizza.h>
+	"SizeService.h"
+	"BottomService.h"
+	"PizzaService.h"
+	"ToppingService.h"
+
+1513233714 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\services\toppingservice.h
+	<vector>
+	"Topping.h"
+	"InvalidItemIdExceptions.h"
+	"InvalidItemNameException.h"
+	"InvalidItemPriceException.h"
+	"InvalidItemVeganException.h"
+	"ToppingRepository.h"
+
+1513140782 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\repositories\toppingrepository.h
+	"Topping.h"
+	<vector>
+
+1513241133 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\sales_menu_drinks.h
+	"Drink.h"
+	"DrinkService.h"
+	<vector>
+
+1513117405 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\models\drink.h
+	"commonItemProperties.h"
+
+1513240573 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\services\drinkservice.h
+	"Drink.h"
+	"DrinksRepository.h"
+	"InvalidItemIdExceptions.h"
+	"InvalidItemNameException.h"
+	"InvalidItemPriceException.h"
+	<vector>
+
+1512965462 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\repositories\drinksrepository.h
+	"Drink.h"
+	<vector>
+
+1513241815 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\sales_menu_sides.h
+	<vector>
+	"Side.h"
+	"SideService.h"
+
+1513117811 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\models\side.h
+	"commonItemProperties.h"
+
+1513241627 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\services\sideservice.h
+	"Side.h"
+	"SidesRepository.h"
+	"InvalidItemIdExceptions.h"
+	"InvalidItemNameException.h"
+	"InvalidItemPriceException.h"
+	"InvalidItemVeganException.h"
+	<vector>
+
+1512955784 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\repositories\sidesrepository.h
+	"Side.h"
+	<vector>
+
+1513278030 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\sales_create_order.h
+	"Sales_Menu_Custom_Pizza.h"
+	"Sales_Menu_Pizza.h"
+	"Sales_Menu_Sides.h"
+	"Sales_Menu_Drinks.h"
+	"OrderService.h"
+	"Location.h"
+
+1513294009 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\services\orderservice.h
+	"Order.h"
+	"OrderRepository.h"
+
+1513292436 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\models\order.h
+	<vector>
+	"Pizza.h"
+	"Side.h"
+	"Drink.h"
+	"Location.h"
+
+1513270948 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\repositories\orderrepository.h
+	"Order.h"
+	<vector>
+
+1513181779 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\exceptions\invaliditemidexceptions.cpp
+	"InvalidItemIdExceptions.h"
+
+1513136693 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\exceptions\invaliditemnameexception.cpp
+	"InvalidItemNameException.h"
+
+1513123578 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\exceptions\invaliditempriceexception.cpp
+	"InvalidItemPriceException.h"
+
+1513123678 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\exceptions\invaliditemveganexception.cpp
+	"InvalidItemVeganException.h"
+
+1512726799 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\exceptions\invalidloginexception.cpp
+	"InvalidLoginException.h"
+
+1512726915 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\exceptions\invalidpasswordexception.cpp
+	"InvalidPasswordException.h"
+
+1512737202 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\exceptions\invalidusernameexception.cpp
+	"InvalidUsernameException.h"
+
+1512727210 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\exceptions\invalidusertypeexception.cpp
+	"InvalidUserTypeException.h"
+
+1512727131 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\exceptions\universalincludes.cpp
+	"UniversalIncludes.h"
+
+1513223583 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\models\bottom.cpp
+	"Bottom.h"
+
+1512855038 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\models\commonitemproperties.cpp
+	"commonItemProperties.h"
+
+1513223577 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\models\drink.cpp
+	"Drink.h"
+
+1513223592 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\models\location.cpp
+	"Location.h"
+
+1513288753 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\models\order.cpp
+	"Order.h"
+
+1513237544 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\models\pizza.cpp
+	"Pizza.h"
+	<iomanip>
+	<iostream>
+	<vector>
+	"BottomService.h"
+	"SizeService.h"
+
+1513224898 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\models\side.cpp
+	"Side.h"
+
+1513228125 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\models\size.cpp
+	"Size.h"
+	<iomanip>
+
+1513224927 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\models\topping.cpp
+	"Topping.h"
+
+1513055567 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\models\user.cpp
+	"User.h"
+	<cstring>
+	<iostream>
+
+1512967961 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\repositories\bottomsrepository.cpp
+	"BottomsRepository.h"
+	<fstream>
+	<cstring>
+
+1512965490 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\repositories\drinksrepository.cpp
+	"DrinksRepository.h"
+	<fstream>
+	<cstring>
+
+1513224991 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\repositories\locationrepository.cpp
+	"LocationRepository.h"
+	<fstream>
+
+1512852425 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\repositories\loginrepository.cpp
+	"LoginRepository.h"
+	<fstream>
+	<cstring>
+
+1513284284 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\repositories\orderrepository.cpp
+	"OrderRepository.h"
+	<fstream>
+	<cstring>
+	<iostream>
+
+1512971261 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\repositories\pizzarepository.cpp
+	"PizzaRepository.h"
+	<fstream>
+	<cstring>
+
+1512964961 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\repositories\sidesrepository.cpp
+	"SidesRepository.h"
+	<fstream>
+	<cstring>
+
+1512969987 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\repositories\sizerepository.cpp
+	"SizeRepository.h"
+	<fstream>
+	<cstring>
+
+1513140801 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\repositories\toppingrepository.cpp
+	"ToppingRepository.h"
+	<fstream>
+	<cstring>
+
+1513227117 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\services\bottomservice.cpp
+	"BottomService.h"
+
+1513276188 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\services\drinkservice.cpp
+	"DrinkService.h"
+
+1513179864 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\services\locationservice.cpp
+	"LocationService.h"
+
+1513055168 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\services\loginservices.cpp
+	"LoginServices.h"
+
+1513292236 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\services\orderservice.cpp
+	"OrderService.h"
+
+1513230409 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\services\pizzaservice.cpp
+	"PizzaService.h"
+	"BottomService.h"
+	"ToppingService.h"
+	"SizeService.h"
+
+1513241711 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\services\sideservice.cpp
+	"SideService.h"
+
+1513227165 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\services\sizeservice.cpp
+	"SizeService.h"
+
+1513233701 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\services\toppingservice.cpp
+	"ToppingService.h"
+
+1513184602 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\admin_main_ui.cpp
+	"Admin_Main_UI.h"
+	<iostream>
+	<cstdlib>
+
+1513183486 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\admin_menu_bottoms.cpp
+	"Admin_Menu_Bottoms.h"
+	<iostream>
+	<cstdlib>
+	<iomanip>
+
+1513134648 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\admin_menu_bottoms.h
+	"BottomService.h"
+	"Bottom.h"
+	"MiscUIFunctions.h"
+
+1513138373 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\admin_menu_drinks.cpp
+	"Admin_Menu_Drinks.h"
+	<iostream>
+	<cstdlib>
+	<iomanip>
+
+1513134652 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\admin_menu_drinks.h
+	"DrinkService.h"
+	"Drink.h"
+	"MiscUIFunctions.h"
+
+1513184260 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\admin_menu_location.cpp
+	"Admin_Menu_Location.h"
+	<iomanip>
+
+1513052373 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\admin_menu_management.cpp
+	"Admin_Menu_Management.h"
+	<iostream>
+	<cstdlib>
+	"Admin_Menu_Toppings.h"
+	"Admin_Menu_Sides.h"
+	"Admin_Menu_Drinks.h"
+	"Admin_Menu_Bottoms.h"
+	"Admin_Menu_Sizes.h"
+	"Admin_Menu_Pizza.h"
+
+1513134723 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\admin_menu_toppings.h
+	"ToppingService.h"
+	"MiscUIFunctions.h"
+
+1513134665 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\admin_menu_sides.h
+	"SideService.h"
+	"MiscUIFunctions.h"
+
+1513134696 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\admin_menu_sizes.h
+	"SizeService.h"
+	"Size.h"
+	"MiscUIFunctions.h"
+
+1513134658 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\admin_menu_pizza.h
+	"PizzaService.h"
+	"Pizza.h"
+	"MiscUIFunctions.h"
+
+1513225503 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\admin_menu_pizza.cpp
+	"Admin_Menu_Pizza.h"
+	<iostream>
+	<cstdlib>
+	<iomanip>
+	<conio.h>
+	"BottomService.h"
+	"ToppingService.h"
+	"SizeService.h"
+
+1513141148 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\admin_menu_sides.cpp
+	"Admin_Menu_Sides.h"
+	<iostream>
+	<cstdlib>
+	<iomanip>
+
+1513139595 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\admin_menu_size.cpp
+	"Admin_Menu_Sizes.h"
+	<iostream>
+	<cstdlib>
+	<iomanip>
+
+1513141190 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\admin_menu_toppings.cpp
+	"Admin_Menu_Toppings.h"
+	<iostream>
+	<cstdlib>
+	<iomanip>
+
+1513055967 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\admin_user_ui.cpp
+	"Admin_User_UI.h"
+	<iomanip>
+	<iostream>
+	<cstdlib>
+
+1513176811 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\baker_main_ui.cpp
+	"Baker_Main_UI.h"
+
+1513176811 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\cashier_main_ui.cpp
+	"Cashier_Main_UI.h"
+
+1513185871 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\loginui.cpp
+	"LoginUI.h"
+	<iostream>
+	<conio.h>
+	<cstdlib>
+	"MiscUIFunctions.h"
+
+1513185239 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\miscuifunctions.cpp
+	"MiscUIFunctions.h"
+
+1513278684 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\sales_create_order.cpp
+	"Sales_Create_Order.h"
+	"LocationService.h"
+	<cstdlib>
+
+1513293334 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\sales_main_ui.cpp
+	"Sales_Main_UI.h"
+	"Sales_Menu_Pizza.h"
+	"Sales_Orders.h"
+	"Sales_Create_Order.h"
+
+1513243689 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\sales_menu_custom_pizza.cpp
+	"Sales_Menu_Custom_Pizza.h"
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	"SizeService.h"
+	"BottomService.h"
+	"PizzaService.h"
+	"ToppingService.h"
+
+1513241410 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\sales_menu_drinks.cpp
+	"Sales_Menu_Drinks.h"
+	<iostream>
+	<iomanip>
+	<cstdlib>
+
+1513240053 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\sales_menu_pizza.cpp
+	"Sales_Menu_Pizza.h"
+	<iostream>
+	<iomanip>
+	<cstdlib>
+
+1513241875 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\sales_menu_sides.cpp
+	"Sales_Menu_Sides.h"
+	<iostream>
+	<iomanip>
+	<cstdlib>
+
+1513292717 c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\include\ui\sales_orders.h
+	"OrderService.h"
+
+1513293396 source:c:\users\dan laptop\onedrive - reykjavik university\tölvunnafrædi\year 1\1. Önn\3. vikna\large\pizzav4\pizza\src\ui\sales_orders.cpp
+	"Sales_Orders.h"
+	"OrderService.h"
+	<cstdlib>
+	<iostream>
 

@@ -13,7 +13,12 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="headers" />
+					<Add directory="include/models" />
+					<Add directory="include/repositories" />
+					<Add directory="include/services" />
+					<Add directory="include/exceptions" />
+					<Add directory="include/UI" />
+					<Add directory="OneDrive - Reykjavik University/Tölvunnafrædi/Year 1/1. Önn/3. Vikna/Large/PizzaV4/Pizza/include/UI" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -23,6 +28,12 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include/models" />
+					<Add directory="include/repositories" />
+					<Add directory="include/services" />
+					<Add directory="include/exceptions" />
+					<Add directory="include/UI" />
+					<Add directory="OneDrive - Reykjavik University/Tölvunnafrædi/Year 1/1. Önn/3. Vikna/Large/PizzaV4/Pizza/include/UI" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -31,32 +42,130 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
-			<Add directory="headers" />
+			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="headers/AdminUI.h" />
-		<Unit filename="headers/BakerUI.h" />
-		<Unit filename="headers/DeliveryUI.h" />
-		<Unit filename="headers/LoginUI.h" />
-		<Unit filename="headers/SaleUI.h" />
-		<Unit filename="headers/textcolors.h" />
+		<Unit filename="include/UI/Admin_Main_UI.h" />
+		<Unit filename="include/UI/Admin_Menu_Bottoms.h" />
+		<Unit filename="include/UI/Admin_Menu_Drinks.h" />
+		<Unit filename="include/UI/Admin_Menu_Location.h" />
+		<Unit filename="include/UI/Admin_Menu_Management.h" />
+		<Unit filename="include/UI/Admin_Menu_Pizza.h" />
+		<Unit filename="include/UI/Admin_Menu_Sides.h" />
+		<Unit filename="include/UI/Admin_Menu_Sizes.h" />
+		<Unit filename="include/UI/Admin_Menu_Toppings.h" />
+		<Unit filename="include/UI/Admin_User_UI.h" />
+		<Unit filename="include/UI/Baker_Main_UI.h" />
+		<Unit filename="include/UI/Cashier_Main_UI.h" />
+		<Unit filename="include/UI/LoginUI.h" />
+		<Unit filename="include/UI/MiscUIFunctions.h" />
+		<Unit filename="include/UI/Sales_Create_Order.h" />
+		<Unit filename="include/UI/Sales_Main_UI.h" />
+		<Unit filename="include/UI/Sales_Menu_Custom_Pizza.h" />
+		<Unit filename="include/UI/Sales_Menu_Drinks.h" />
+		<Unit filename="include/UI/Sales_Menu_Pizza.h" />
+		<Unit filename="include/UI/Sales_Menu_Sides.h" />
+		<Unit filename="include/UI/Sales_Orders.h" />
+		<Unit filename="include/exceptions/InvalidItemIdExceptions.h" />
+		<Unit filename="include/exceptions/InvalidItemNameException.h" />
+		<Unit filename="include/exceptions/InvalidItemPriceException.h" />
+		<Unit filename="include/exceptions/InvalidItemVeganException.h" />
+		<Unit filename="include/exceptions/InvalidLoginException.h" />
+		<Unit filename="include/exceptions/InvalidPasswordException.h" />
+		<Unit filename="include/exceptions/InvalidUserTypeException.h" />
+		<Unit filename="include/exceptions/InvalidUsernameException.h" />
+		<Unit filename="include/exceptions/UniversalIncludes.h" />
+		<Unit filename="include/models/Bottom.h" />
+		<Unit filename="include/models/Drink.h" />
+		<Unit filename="include/models/Location.h" />
+		<Unit filename="include/models/Order.h" />
+		<Unit filename="include/models/Pizza.h" />
+		<Unit filename="include/models/Side.h" />
+		<Unit filename="include/models/Size.h" />
+		<Unit filename="include/models/Topping.h" />
+		<Unit filename="include/models/User.h" />
+		<Unit filename="include/models/commonItemProperties.h" />
+		<Unit filename="include/repositories/BottomsRepository.h" />
+		<Unit filename="include/repositories/DrinksRepository.h" />
+		<Unit filename="include/repositories/LocationRepository.h" />
+		<Unit filename="include/repositories/LoginRepository.h" />
+		<Unit filename="include/repositories/OrderRepository.h" />
+		<Unit filename="include/repositories/PizzaRepository.h" />
+		<Unit filename="include/repositories/SidesRepository.h" />
+		<Unit filename="include/repositories/SizeRepository.h" />
+		<Unit filename="include/repositories/ToppingRepository.h" />
+		<Unit filename="include/services/BottomService.h" />
+		<Unit filename="include/services/DrinkService.h" />
+		<Unit filename="include/services/LocationService.h" />
+		<Unit filename="include/services/LoginServices.h" />
+		<Unit filename="include/services/OrderService.h" />
+		<Unit filename="include/services/PizzaService.h" />
+		<Unit filename="include/services/SideService.h" />
+		<Unit filename="include/services/SizeService.h" />
+		<Unit filename="include/services/ToppingService.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/AdminUI.cpp" />
-		<Unit filename="src/BakerUI.cpp" />
-		<Unit filename="src/DeliveryUI.cpp" />
-		<Unit filename="src/LoginUI.cpp" />
-		<Unit filename="src/SaleUI.cpp" />
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-		<Unit filename="src/order.cpp" />
->>>>>>> 4f3574f45b2b35a21e4261409566dfe720ac6fce
->>>>>>> 57c71e37b9103f3e733bccb9c435439aa01f7bb3
-		<Unit filename="src/textcolors.cpp" />
+		<Unit filename="src/UI/Admin_Main_UI.cpp" />
+		<Unit filename="src/UI/Admin_Menu_Bottoms.cpp" />
+		<Unit filename="src/UI/Admin_Menu_Drinks.cpp" />
+		<Unit filename="src/UI/Admin_Menu_Location.cpp" />
+		<Unit filename="src/UI/Admin_Menu_Management.cpp" />
+		<Unit filename="src/UI/Admin_Menu_Pizza.cpp" />
+		<Unit filename="src/UI/Admin_Menu_Sides.cpp" />
+		<Unit filename="src/UI/Admin_Menu_Size.cpp" />
+		<Unit filename="src/UI/Admin_Menu_Toppings.cpp" />
+		<Unit filename="src/UI/Admin_User_UI.cpp" />
+		<Unit filename="src/UI/Baker_Main_UI.cpp" />
+		<Unit filename="src/UI/Cashier_Main_UI.cpp" />
+		<Unit filename="src/UI/LoginUI.cpp" />
+		<Unit filename="src/UI/MiscUIFunctions.cpp" />
+		<Unit filename="src/UI/Sales_Create_Order.cpp" />
+		<Unit filename="src/UI/Sales_Main_UI.cpp" />
+		<Unit filename="src/UI/Sales_Menu_Custom_Pizza.cpp" />
+		<Unit filename="src/UI/Sales_Menu_Drinks.cpp" />
+		<Unit filename="src/UI/Sales_Menu_Pizza.cpp" />
+		<Unit filename="src/UI/Sales_Menu_Sides.cpp" />
+		<Unit filename="src/UI/Sales_Orders.cpp" />
+		<Unit filename="src/exceptions/InvalidItemIdExceptions.cpp" />
+		<Unit filename="src/exceptions/InvalidItemNameException.cpp" />
+		<Unit filename="src/exceptions/InvalidItemPriceException.cpp" />
+		<Unit filename="src/exceptions/InvalidItemVeganException.cpp" />
+		<Unit filename="src/exceptions/InvalidLoginException.cpp" />
+		<Unit filename="src/exceptions/InvalidPasswordException.cpp" />
+		<Unit filename="src/exceptions/InvalidUserTypeException.cpp" />
+		<Unit filename="src/exceptions/InvalidUsernameException.cpp" />
+		<Unit filename="src/exceptions/UniversalIncludes.cpp" />
+		<Unit filename="src/models/Bottom.cpp" />
+		<Unit filename="src/models/Drink.cpp" />
+		<Unit filename="src/models/Location.cpp" />
+		<Unit filename="src/models/Order.cpp" />
+		<Unit filename="src/models/Pizza.cpp" />
+		<Unit filename="src/models/Side.cpp" />
+		<Unit filename="src/models/Size.cpp" />
+		<Unit filename="src/models/Topping.cpp" />
+		<Unit filename="src/models/User.cpp" />
+		<Unit filename="src/models/commonItemProperties.cpp" />
+		<Unit filename="src/repositories/BottomsRepository.cpp" />
+		<Unit filename="src/repositories/DrinksRepository.cpp" />
+		<Unit filename="src/repositories/LocationRepository.cpp" />
+		<Unit filename="src/repositories/LoginRepository.cpp" />
+		<Unit filename="src/repositories/OrderRepository.cpp" />
+		<Unit filename="src/repositories/PizzaRepository.cpp" />
+		<Unit filename="src/repositories/SidesRepository.cpp" />
+		<Unit filename="src/repositories/SizeRepository.cpp" />
+		<Unit filename="src/repositories/ToppingRepository.cpp" />
+		<Unit filename="src/services/BottomService.cpp" />
+		<Unit filename="src/services/DrinkService.cpp" />
+		<Unit filename="src/services/LocationService.cpp" />
+		<Unit filename="src/services/LoginServices.cpp" />
+		<Unit filename="src/services/OrderService.cpp" />
+		<Unit filename="src/services/PizzaService.cpp" />
+		<Unit filename="src/services/SideService.cpp" />
+		<Unit filename="src/services/SizeService.cpp" />
+		<Unit filename="src/services/ToppingService.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
 			<debugger />
+			<lib_finder disable_auto="1" />
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>
