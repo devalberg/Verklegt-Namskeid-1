@@ -4,6 +4,7 @@
 #include "User.h"
 #include "LoginServices.h"
 #include "MiscUIFunctions.h"
+#include "commonItemProperties.h"
 
 
 class LoginUI

@@ -12,6 +12,7 @@ using namespace std;
 
 int main()
 {
+    cLGray();
     while (true)
     {
         LoginUI login;

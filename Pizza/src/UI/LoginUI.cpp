@@ -34,17 +34,21 @@ User LoginUI::run()
 
         if (_service.login(tempUser))
         {
+            cGreen();
             cout << "Password accepted! welcome, ";
             _user = tempUser;
             cout << _user;
             cout << endl;
             _user = tempUser;
+            cLGray();
             system("pause");
             break;
         }
         else
         {
+            cRed();
             cout << "Username / Password incorrect, try again" << endl << endl;
+            cLGray();
         }
     }
     return tempUser;
@@ -74,9 +78,12 @@ void LoginUI::getPasswordInput(char* password)
         }
         else
         {
-            password[characterPosition] = c;
-            characterPosition++;
-            cout << '*';
+            if (characterPosition <= MAXPASSWORD)
+            {
+                password[characterPosition] = c;
+                characterPosition++;
+                cout << '*';
+            }
         }
     }
     while (c != 13);

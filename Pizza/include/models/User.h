@@ -3,6 +3,7 @@
 
 #include <string>
 #include <iostream>
+#include "Location.h"
 using namespace std;
 
 const int MAXUSERNAME = 20;
