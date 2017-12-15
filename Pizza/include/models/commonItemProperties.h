@@ -1,5 +1,7 @@
 #ifndef MAXITEMNAMESIZE_H
 #define MAXITEMNAMESIZE_H
+#include <stdlib.h>
+#include <Windows.h>
 
 #include <cstring>
 #include <string>
@@ -20,6 +22,22 @@ const unsigned int MAX_NAME = 64;
 const unsigned int MAX_ADDRESS = 32;
 const unsigned int MAX_PHONE = 16;
 
+        void cDBlue();
+        void cDGreen();
+        void cDTeal();
+        void cDRed();
+        void cPurple();
+        void cOrange();
+        void cLGray();
+        void cGray();
+        void cBlue();
+        void cGreen();
+        void cTeal();
+        void cRed();
+        void cPink();
+        void cYellow();
+        void cWhite();
+
 
 class MaxItemNameSize
 {
@@ -32,3 +50,4 @@ class MaxItemNameSize
 };
 
 #endif // MAXITEMNAMESIZE_H
+
