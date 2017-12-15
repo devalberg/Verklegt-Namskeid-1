@@ -278,7 +278,7 @@ void Sales_Create_Order::delete_drink()
     drinks.erase(drinks.begin()+index-1);
 }
 
-Location Sales_Create_Order::choose_location()
+  Sales_Create_Order::choose_location()
 {
     Location location;
     LocationService l;

@@ -15,6 +15,7 @@ class User
         User();
         User(char* username, char* password, char userType);
         User(string username, string password, char userType);
+        Location location;
 
         /// Get different attributes
         string get_username() const;
