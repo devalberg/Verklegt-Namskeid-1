@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1513297675 source:c:\users\krisitnn\desktop\3-vikna\pizza\main.cpp
+1513298293 source:c:\users\krisitnn\desktop\3-vikna\pizza\main.cpp
 	<iostream>
 	"LoginUI.h"
 	"Admin_Main_UI.h"
@@ -10,10 +10,11 @@
 	"Sales_Create_Order.h"
 	"Sales_Orders.h"
 
-1513297675 c:\users\krisitnn\desktop\3-vikna\pizza\include\ui\loginui.h
+1513298329 c:\users\krisitnn\desktop\3-vikna\pizza\include\ui\loginui.h
 	"User.h"
 	"LoginServices.h"
 	"MiscUIFunctions.h"
+	"commonItemProperties.h"
 
 1513297675 c:\users\krisitnn\desktop\3-vikna\pizza\include\models\user.h
 	<string>
@@ -555,4 +556,7 @@
 	"OrderService.h"
 	<cstdlib>
 	<iostream>
+
+1513297819 source:c:\users\krisitnn\desktop\3-vikna\pizza\src\models\commonitemproperties.cpp
+	"commonItemProperties.h"
 

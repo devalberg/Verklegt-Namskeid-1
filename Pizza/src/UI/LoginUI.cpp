@@ -34,17 +34,21 @@ User LoginUI::run()
 
         if (_service.login(tempUser))
         {
+            cGreen();
             cout << "Password accepted! welcome, ";
             _user = tempUser;
             cout << _user;
             cout << endl;
             _user = tempUser;
+            cLGray();
             system("pause");
             break;
         }
         else
         {
+            cRed();
             cout << "Username / Password incorrect, try again" << endl << endl;
+            cLGray();
         }
     }
     return tempUser;
